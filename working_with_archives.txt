@@ -1,0 +1,59 @@
+
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar czf ./ archive.tar.gz
+tar: archive.tar.gz: Cannot stat: No such file or directory
+tar (child): ./: Cannot open: Is a directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+george@staembed01:~/Documents/New_Directory$ tar czf arc.tar.gz ./
+tar: .: file changed as we read it
+george@staembed01:~/Documents/New_Directory$ ls
+arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar czf Archive_New_Dir.tar.gz New_Dir/
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar xzf Archive_New_Dir.tar.gz New_New_Dir
+tar: New_New_Dir: Not found in archive
+tar: Exiting with failure status due to previous errors
+george@staembed01:~/Documents/New_Directory$ tar xzf Archive_New_Dir.tar.gz 
+george@staembed01:~/Documents/New_Directory$ LS
+
+Command 'LS' not found, but can be installed with:
+
+sudo apt install sl
+
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar xzf Archive_New_Dir.tar.gz New_Dir/
+george@staembed01:~/Documents/New_Directory$ cd New_Dir/
+george@staembed01:~/Documents/New_Directory/New_Dir$ ls
+file1  file5
+george@staembed01:~/Documents/New_Directory/New_Dir$ cd ..
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ rmdir New_Dir/
+rmdir: failed to remove 'New_Dir/': Directory not empty
+george@staembed01:~/Documents/New_Directory$ tar xzf arc.tar.gz 
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar czf arc.tar.gz New_Dir/
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar archive.tar.gz New_Dir/
+tar: You may not specify more than one '-Acdtrux', '--delete' or  '--test-label' option
+Try 'tar --help' or 'tar --usage' for more information.
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ tar czf archive.tar.gz New_Dir/
+george@staembed01:~/Documents/New_Directory$ LS
+
+Command 'LS' not found, but can be installed with:
+
+sudo apt install sl
+
+george@staembed01:~/Documents/New_Directory$ ls
+Archive_New_Dir.tar.gz  arc.tar.gz  file2  file4  index.html    myerror.txt  New_Dir
+archive.tar.gz          file1       file3  file6  index.html.1  myfile
+george@staembed01:~/Documents/New_Directory$ 
