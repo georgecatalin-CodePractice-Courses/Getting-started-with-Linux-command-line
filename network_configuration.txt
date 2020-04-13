@@ -1,0 +1,152 @@
+
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ ip route show
+default via 10.0.2.2 dev enp0s3 proto dhcp metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100 
+169.254.0.0/16 dev enp0s3 scope link metric 1000 
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ sudo dhclinet
+[sudo] password for george: 
+sudo: dhclinet: command not found
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ sudo dhclient
+RTNETLINK answers: File exists
+cmp: EOF on /tmp/tmp.1HftIGD52l which is empty
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ sudo dhclient
+RTNETLINK answers: File exists
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4d:32:35 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 73552sec preferred_lft 73552sec
+    inet6 fe80::ce8b:cb07:c4d9:16de/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::ce8b:cb07:c4d9:16de  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:4d:32:35  txqueuelen 1000  (Ethernet)
+        RX packets 32131  bytes 36800886 (36.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10380  bytes 1675038 (1.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 2016  bytes 215865 (215.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2016  bytes 215865 (215.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ ip route show
+default via 10.0.2.2 dev enp0s3 
+default via 10.0.2.2 dev enp0s3 proto dhcp metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100 
+169.254.0.0/16 dev enp0s3 scope link metric 1000 
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         _gateway        0.0.0.0         UG    0      0        0 enp0s3
+default         _gateway        0.0.0.0         UG    100    0        0 enp0s3
+10.0.2.0        0.0.0.0         255.255.255.0   U     100    0        0 enp0s3
+link-local      0.0.0.0         255.255.0.0     U     1000   0        0 enp0s3
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ netstat -i
+Kernel Interface table
+Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
+enp0s3    1500    32142      0      0 0         10392      0      0      0 BMRU
+lo       65536     2022      0      0 0          2022      0      0      0 LRU
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ netstat -l
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:5900            0.0.0.0:*               LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       0      0 [::]:5900               [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                          
+udp        0      0 0.0.0.0:ipp             0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 0.0.0.0:56734           0.0.0.0:*                          
+udp6       0      0 [::]:55301              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7          
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     44295    @/tmp/dbus-Dsr9sSQ2
+unix  2      [ ACC ]     STREAM     LISTENING     36041    @/tmp/dbus-hQnXqE1B
+unix  2      [ ACC ]     SEQPACKET  LISTENING     6481     /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     42757    /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     32414    /run/user/121/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     42761    /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     33150    /run/user/121/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     33087    @/tmp/dbus-tnyVCOmE
+unix  2      [ ACC ]     STREAM     LISTENING     42762    /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     33151    /run/user/121/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     44499    @/tmp/.ICE-unix/8179
+unix  2      [ ACC ]     STREAM     LISTENING     42763    /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     33152    /run/user/121/bus
+unix  2      [ ACC ]     STREAM     LISTENING     26905    /run/NetworkManager/private-dhcp
+unix  2      [ ACC ]     STREAM     LISTENING     42764    /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     33153    /run/user/121/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     44500    /tmp/.ICE-unix/8179
+unix  2      [ ACC ]     STREAM     LISTENING     42765    /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     33154    /run/user/121/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     44313    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     42767    /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     33155    /run/user/121/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     42768    /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     33156    /run/user/121/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     45256    /run/user/1000/keyring/control
+unix  2      [ ACC ]     STREAM     LISTENING     33157    /run/user/121/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     28881    /tmp/sockets/redis.sock
+unix  2      [ ACC ]     STREAM     LISTENING     22967    @irqbalance846.sock
+unix  2      [ ACC ]     STREAM     LISTENING     44518    /run/user/1000/keyring/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     33270    /run/user/121/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     44535    /run/user/1000/keyring/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     28086    /tmp/.gmx.1469.0
+unix  2      [ ACC ]     STREAM     LISTENING     6476     /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     33198    @/tmp/.ICE-unix/3218
+unix  2      [ ACC ]     STREAM     LISTENING     45614    /run/user/1000/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     6485     /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     44312    @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     6487     /run/lvm/lvmetad.socket
+unix  2      [ ACC ]     STREAM     LISTENING     6500     /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     85364    /run/user/1000/snap.code/vscode-f3843f0f-1.44.0-main.sock
+unix  2      [ ACC ]     STREAM     LISTENING     88427    /run/user/1000/snap.code/vscode-f3843f0f-1.44.0-shared.sock
+unix  2      [ ACC ]     STREAM     LISTENING     6505     /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     101410   /run/user/1000/snap.code/vscode-git-ipc-6288a5ee7b4e2d29402ef82611a877e784e221bd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     30437    /tmp/sockets/mysql.sock
+unix  2      [ ACC ]     STREAM     LISTENING     47188    @/tmp/dbus-cJreg8R4
+unix  2      [ ACC ]     STREAM     LISTENING     22437    /run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     22439    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     22441    /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     22445    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     37274    /var/snap/lxd/common/lxd/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     22447    /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     22449    /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     33085    @/tmp/dbus-qQ9qAnMd
+unix  2      [ ACC ]     STREAM     LISTENING     30638    /tmp/sockets/php-fpm.sock
+unix  2      [ ACC ]     STREAM     LISTENING     33084    @/tmp/dbus-WsnSgF3n
+unix  2      [ ACC ]     STREAM     LISTENING     73290    /run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     33199    /tmp/.ICE-unix/3218
+unix  2      [ ACC ]     STREAM     LISTENING     33259    /tmp/.X11-unix/X1024
+unix  2      [ ACC ]     STREAM     LISTENING     32648    @/tmp/dbus-vzD5T2I85S
+unix  2      [ ACC ]     STREAM     LISTENING     44296    @/tmp/dbus-QaQv0QsR
+unix  2      [ ACC ]     STREAM     LISTENING     33086    @/tmp/dbus-RPbt2aaR
+unix  2      [ ACC ]     STREAM     LISTENING     43814    /tmp/ssh-1QYA21VD1K7u/agent.8179
+unix  2      [ ACC ]     STREAM     LISTENING     33258    @/tmp/.X11-unix/X1024
+unix  2      [ ACC ]     STREAM     LISTENING     44439    @/tmp/dbus-XF2TMTWtfv
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ 
