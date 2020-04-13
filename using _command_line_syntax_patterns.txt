@@ -1,0 +1,937 @@
+
+george@staembed01:~$ ls
+Desktop  Documents  Downloads  eclipse-workspace  examples.desktop  GPUCache  Music  Pictures  Public  snap  Templates  Videos
+george@staembed01:~$ ls -a
+.         .bash_history  .config    .dummy.cs.swp      .gconf      GPUCache       .kde      Music      .profile  .sudo_as_admin_successful  .vboxclient-display.pid      .vim
+..        .bash_logout   Desktop    .eclipse           .gitconfig  .ICEauthority  .local    .netbeans  Public    .swt                       .vboxclient-draganddrop.pid  .viminfo
+.android  .bashrc        Documents  eclipse-workspace  .gnome      .IdeaIE2019.3  .mono     Pictures   snap      Templates                  .vboxclient-seamless.pid     .vscode
+.atom     .cache         Downloads  examples.desktop   .gnupg      .java          .mozilla  .pki       .ssh      .tooling                   Videos
+george@staembed01:~$ ls --all
+.         .bash_history  .config    .dummy.cs.swp      .gconf      GPUCache       .kde      Music      .profile  .sudo_as_admin_successful  .vboxclient-display.pid      .vim
+..        .bash_logout   Desktop    .eclipse           .gitconfig  .ICEauthority  .local    .netbeans  Public    .swt                       .vboxclient-draganddrop.pid  .viminfo
+.android  .bashrc        Documents  eclipse-workspace  .gnome      .IdeaIE2019.3  .mono     Pictures   snap      Templates                  .vboxclient-seamless.pid     .vscode
+.atom     .cache         Downloads  examples.desktop   .gnupg      .java          .mozilla  .pki       .ssh      .tooling                   Videos
+george@staembed01:~$ man ls
+george@staembed01:~$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4d:32:35 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 83999sec preferred_lft 83999sec
+    inet6 fe80::ce8b:cb07:c4d9:16de/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+george@staembed01:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:4d:32:35 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 83921sec preferred_lft 83921sec
+    inet6 fe80::ce8b:cb07:c4d9:16de/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+george@staembed01:~$ ls -l
+total 56
+drwxr-xr-x 2 george george 4096 mar  4 10:23 Desktop
+drwxr-xr-x 3 george george 4096 apr 13 12:24 Documents
+drwxr-xr-x 2 george george 4096 apr  7 12:42 Downloads
+drwxrwxr-x 7 george george 4096 apr  2 13:21 eclipse-workspace
+-rw-r--r-- 1 george george 8980 mar  4 10:15 examples.desktop
+drwx------ 2 george george 4096 apr 10 15:58 GPUCache
+drwxr-xr-x 2 george george 4096 mar  4 10:23 Music
+drwxr-xr-x 2 george george 4096 mar 26 20:15 Pictures
+drwxr-xr-x 2 george george 4096 mar  4 10:23 Public
+drwxr-xr-x 8 george george 4096 apr 10 15:57 snap
+drwxr-xr-x 2 george george 4096 mar  4 10:23 Templates
+drwxr-xr-x 2 george george 4096 mar  4 10:23 Videos
+george@staembed01:~$ ls -lh
+total 56K
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Desktop
+drwxr-xr-x 3 george george 4,0K apr 13 12:24 Documents
+drwxr-xr-x 2 george george 4,0K apr  7 12:42 Downloads
+drwxrwxr-x 7 george george 4,0K apr  2 13:21 eclipse-workspace
+-rw-r--r-- 1 george george 8,8K mar  4 10:15 examples.desktop
+drwx------ 2 george george 4,0K apr 10 15:58 GPUCache
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Music
+drwxr-xr-x 2 george george 4,0K mar 26 20:15 Pictures
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Public
+drwxr-xr-x 8 george george 4,0K apr 10 15:57 snap
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Templates
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Videos
+george@staembed01:~$ ls -lht
+total 56K
+drwxr-xr-x 3 george george 4,0K apr 13 12:24 Documents
+drwx------ 2 george george 4,0K apr 10 15:58 GPUCache
+drwxr-xr-x 8 george george 4,0K apr 10 15:57 snap
+drwxr-xr-x 2 george george 4,0K apr  7 12:42 Downloads
+drwxrwxr-x 7 george george 4,0K apr  2 13:21 eclipse-workspace
+drwxr-xr-x 2 george george 4,0K mar 26 20:15 Pictures
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Desktop
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Music
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Public
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Templates
+drwxr-xr-x 2 george george 4,0K mar  4 10:23 Videos
+-rw-r--r-- 1 george george 8,8K mar  4 10:15 examples.desktop
+george@staembed01:~$ ls -l /etc
+total 1224
+drwxr-xr-x  3 root root     4096 feb  3 20:25 acpi
+-rw-r--r--  1 root root     3028 feb  3 20:22 adduser.conf
+drwxr-xr-x  2 root root    12288 apr 10 14:20 alternatives
+-rw-r--r--  1 root root      401 mai 29  2017 anacrontab
+drwxr-xr-x  3 root root     4096 apr 10 14:19 apache2
+-rw-r--r--  1 root root      433 oct  2  2017 apg.conf
+drwxr-xr-x  6 root root     4096 feb  3 20:24 apm
+drwxr-xr-x  3 root root     4096 feb  3 20:25 apparmor
+drwxr-xr-x  9 root root     4096 apr 10 15:37 apparmor.d
+drwxr-xr-x  4 root root     4096 apr  3 12:08 apport
+-rw-r--r--  1 root root      769 apr  4  2018 appstream.conf
+drwxr-xr-x  7 root root     4096 apr  8 15:09 apt
+drwxr-xr-x  3 root root     4096 feb  3 20:26 avahi
+-rw-r--r--  1 root root     2319 apr  4  2018 bash.bashrc
+-rw-r--r--  1 root root       45 apr  2  2018 bash_completion
+drwxr-xr-x  2 root root     4096 apr  3 12:08 bash_completion.d
+-rw-r--r--  1 root root      367 ian 27  2016 bindresvport.blacklist
+drwxr-xr-x  2 root root     4096 apr 20  2018 binfmt.d
+drwxr-xr-x  2 root root     4096 mar 31 13:22 bluetooth
+-rw-r-----  1 root root       33 feb  3 20:26 brlapi.key
+drwxr-xr-x  7 root root     4096 feb  3 20:25 brltty
+-rw-r--r--  1 root root    25341 aug 29  2018 brltty.conf
+drwxr-xr-x  3 root root     4096 feb  3 20:22 ca-certificates
+-rw-r--r--  1 root root     5898 feb  3 20:22 ca-certificates.conf
+drwxr-xr-x  2 root root     4096 feb  3 20:25 calendar
+-rw-r--r--  1 root root      119 sep 14  2017 catdocrc
+drwxr-s---  2 root dip      4096 mar  6 11:06 chatscripts
+drwxr-xr-x  2 root root     4096 feb  3 20:23 console-setup
+drwxr-xr-x  2 root root     4096 feb  3 20:25 cracklib
+drwxr-xr-x  2 root root     4096 feb  3 20:25 cron.d
+drwxr-xr-x  2 root root     4096 apr  3 12:08 cron.daily
+drwxr-xr-x  2 root root     4096 feb  3 20:22 cron.hourly
+drwxr-xr-x  2 root root     4096 feb  3 20:25 cron.monthly
+-rw-r--r--  1 root root      722 nov 16  2017 crontab
+drwxr-xr-x  2 root root     4096 apr 10 14:20 cron.weekly
+drwxr-xr-x  5 root lp       4096 apr 13 12:21 cups
+drwxr-xr-x  2 root root     4096 feb  3 20:26 cupshelpers
+drwxr-xr-x  4 root root     4096 feb  3 20:22 dbus-1
+drwxr-xr-x  4 root root     4096 feb  3 20:24 dconf
+-rw-r--r--  1 root root     2969 feb 28  2018 debconf.conf
+-rw-r--r--  1 root root       11 iun 26  2017 debian_version
+drwxr-xr-x  2 root root     4096 apr 10 15:37 default
+-rw-r--r--  1 root root      604 aug 13  2017 deluser.conf
+drwxr-xr-x  2 root root     4096 mar  4 10:31 depmod.d
+drwxr-xr-x  4 root root     4096 feb  3 20:23 dhcp
+drwxr-xr-x  2 root root     4096 mar  4 10:16 dictionaries-common
+drwxr-xr-x  2 root root     4096 apr 10 15:41 dnsmasq.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 dnsmasq.d-available
+drwxr-xr-x  4 root root     4096 feb  3 20:23 dpkg
+drwxr-xr-x  3 root root     4096 feb  3 20:25 emacs
+-rw-r--r--  1 root root       96 feb  3 20:22 environment
+-rw-r--r--  1 root root     1317 iun 28  2018 ethertypes
+drwxr-xr-x  3 root root     4096 apr  8 15:14 firefox
+drwxr-xr-x  4 root root     4096 feb  3 20:25 fonts
+-rw-rw-r--  1 root root      483 mar  4 10:13 fstab
+-rw-r--r--  1 root root      280 iun 20  2014 fuse.conf
+drwxr-xr-x  3 root root     4096 mar 30 13:19 fwupd
+-rw-r--r--  1 root root     2584 feb  1  2018 gai.conf
+drwxr-xr-x  5 root root     4096 apr 10 14:19 gconf
+drwxr-xr-x  2 root root     4096 feb  3 20:26 gdb
+drwxr-xr-x  8 root root     4096 feb  3 20:27 gdm3
+drwxr-xr-x  2 root root     4096 feb  3 20:27 geoclue
+drwxr-xr-x  4 root root     4096 feb  3 20:24 ghostscript
+drwxr-xr-x  3 root root     4096 feb  3 20:24 glvnd
+drwxr-xr-x  2 root root     4096 feb  3 20:25 gnome
+drwxr-xr-x  2 root root     4096 feb  3 20:25 groff
+-rw-r--r--  1 root root      975 apr 10 15:37 group
+-rw-r--r--  1 root root      969 apr 10 15:37 group-
+drwxr-xr-x  2 root root     4096 mar 30 13:19 grub.d
+-rw-r-----  1 root shadow    812 apr 10 15:37 gshadow
+-rw-r-----  1 root shadow    806 apr 10 15:37 gshadow-
+drwxr-xr-x  3 root root     4096 feb  3 20:23 gss
+drwxr-xr-x  2 root root     4096 feb  3 20:25 gtk-2.0
+drwxr-xr-x  2 root root     4096 feb  3 20:27 gtk-3.0
+-rw-r--r--  1 root root     4861 feb 22  2018 hdparm.conf
+-rw-r--r--  1 root root       92 apr  9  2018 host.conf
+-rw-r--r--  1 root root       11 mar  4 10:14 hostname
+-rw-r--r--  1 root root      225 mar  4 10:14 hosts
+-rw-r--r--  1 root root      411 feb  3 20:25 hosts.allow
+-rw-r--r--  1 root root      711 feb  3 20:25 hosts.deny
+drwxr-xr-x  2 root root     4096 feb  3 20:27 hp
+drwxr-xr-x  3 root root     4096 feb  3 20:24 ifplugd
+drwxr-xr-x  2 root root     4096 feb  3 20:25 ImageMagick-6
+drwxr-xr-x  2 root root     4096 apr 10 14:20 init
+drwxr-xr-x  2 root root     4096 apr 10 15:37 init.d
+drwxr-xr-x  5 root root     4096 feb  3 20:23 initramfs-tools
+-rw-r--r--  1 root root     1748 mai 15  2017 inputrc
+drwxr-xr-x  2 root root     4096 feb  3 20:27 insserv.conf.d
+drwxr-xr-x  4 root root     4096 feb  3 20:22 iproute2
+-rw-r--r--  1 root root       26 ian 30 14:28 issue
+-rw-r--r--  1 root root       19 ian 30 14:28 issue.net
+drwxr-xr-x  5 root root     4096 apr  2 11:30 java-11-openjdk
+drwxr-xr-x  5 root root     4096 mar  4 10:56 java-8-openjdk
+drwxr-xr-x  7 root root     4096 mar  4 10:31 kernel
+-rw-r--r--  1 root root      110 mar  4 10:15 kernel-img.conf
+-rw-r--r--  1 root root     1308 dec  2  2017 kerneloops.conf
+-rw-r--r--  1 root root     1174 sep 10  2019 ksysguarddrc
+drwxr-xr-x  2 root root     4096 feb  3 20:25 ldap
+-rw-r--r--  1 root root   115257 apr 13 12:16 ld.so.cache
+-rw-r--r--  1 root root       34 ian 27  2016 ld.so.conf
+drwxr-xr-x  2 root root     4096 feb  3 20:22 ld.so.conf.d
+-rw-r--r--  1 root root      267 apr  9  2018 legal
+-rw-r--r--  1 root root       27 ian 18  2018 libao.conf
+-rw-r--r--  1 root root      191 feb  8  2018 libaudit.conf
+drwxr-xr-x  3 root root     4096 feb  3 20:24 libblockdev
+drwxr-xr-x  2 root root     4096 feb  3 20:25 libnl-3
+drwxr-xr-x  2 root root     4096 apr 28  2017 libpaper.d
+drwxr-xr-x  2 root root     4096 feb  3 20:27 libreoffice
+drwxr-xr-x  4 root root     4096 apr 10 14:20 lighttpd
+-rw-r--r--  1 root root     1417 apr  8  2018 lintianrc
+-rw-r--r--  1 root root     2995 apr 16  2018 locale.alias
+-rw-r--r--  1 root root     9393 mar  4 10:14 locale.gen
+lrwxrwxrwx  1 root root       38 apr 10 11:52 localtime -> ../usr/share/zoneinfo/Europe/Bucharest
+drwxr-xr-x  4 root root     4096 feb  3 20:24 logcheck
+-rw-r--r--  1 root root    10550 ian 25  2018 login.defs
+-rw-r--r--  1 root root      703 aug 21  2017 logrotate.conf
+drwxr-xr-x  2 root root     4096 apr 10 15:37 logrotate.d
+-rw-r--r--  1 root root      105 ian 30 14:28 lsb-release
+-rw-r--r--  1 root root    14867 oct 13  2016 ltrace.conf
+drwxr-xr-x  5 root root     4096 mar  4 10:22 lvm
+-r--r--r--  1 root root       33 mar  4 10:22 machine-id
+-rw-r--r--  1 root root      111 feb 13  2018 magic
+-rw-r--r--  1 root root      111 feb 13  2018 magic.mime
+-rw-r--r--  1 root root    49634 apr 10 14:20 mailcap
+-rw-r--r--  1 root root      449 iul 15  2016 mailcap.order
+-rw-r--r--  1 root root     5174 aug  4  2018 manpath.config
+drwxr-xr-x  2 root root     4096 mar  4 11:04 mc
+-rw-r--r--  1 root root    24301 iul 15  2016 mime.types
+-rw-r--r--  1 root root      812 mar 24  2018 mke2fs.conf
+drwxr-xr-x  2 root root     4096 feb  3 20:25 modprobe.d
+-rw-r--r--  1 root root      195 feb  3 20:22 modules
+drwxr-xr-x  2 root root     4096 mar 30 13:18 modules-load.d
+lrwxrwxrwx  1 root root       19 mar  4 10:15 mtab -> ../proc/self/mounts
+-rw-r--r--  1 root root      624 aug  8  2007 mtools.conf
+drwxr-xr-x  3 root root     4096 apr 10 14:20 mysql
+-rw-r--r--  1 root root     9048 feb 14  2018 nanorc
+-rw-r--r--  1 root root      282 mai 21  2019 netbeans.clusters
+-rw-r--r--  1 root root     5301 mai 21  2019 netbeans.conf
+-rw-r--r--  1 root root     4828 mai 21  2019 netbeans.import
+drwxr-xr-x  2 root root     4096 feb  3 20:30 netplan
+drwxr-xr-x  7 root root     4096 feb  3 20:24 network
+drwxr-xr-x  6 root root     4096 feb  3 20:23 networkd-dispatcher
+drwxr-xr-x  7 root root     4096 mar 30 13:19 NetworkManager
+-rw-r--r--  1 root root       91 apr  9  2018 networks
+drwxr-xr-x  2 root root     4096 feb  3 20:22 newt
+-rw-r--r--  1 root root      556 feb  3 20:26 nsswitch.conf
+drwxr-xr-x  2 root root     4096 feb  3 20:22 opt
+lrwxrwxrwx  1 root root       21 mar  4 10:13 os-release -> ../usr/lib/os-release
+drwxr-xr-x  2 root root     4096 feb  3 20:26 PackageKit
+-rw-r--r--  1 root root      552 apr  5  2018 pam.conf
+drwxr-xr-x  2 root root     4096 apr 10 14:20 pam.d
+-rw-rw-r--  1 root root        3 mar  4 10:15 papersize
+-rw-r--r--  1 root root     2617 apr 10 15:37 passwd
+-rw-r--r--  1 root root     2617 apr 10 15:37 passwd-
+drwxr-xr-x  2 root root     4096 feb  3 20:25 pcmcia
+drwxr-xr-x  5 root root     4096 feb  3 20:26 perl
+drwxr-xr-x  4 root root     4096 feb  3 20:24 pki
+drwxr-xr-x  3 root root     4096 feb  3 20:24 pm
+-rw-r--r--  1 root root     7649 feb  3 20:26 pnm2ppa.conf
+drwxr-xr-x  5 root root     4096 feb  3 20:24 polkit-1
+-rw-rw-r--  1 root root      350 mar  4 10:15 popularity-contest.conf
+drwxr-xr-x  8 root dip      4096 mar  6 11:06 ppp
+-rw-r--r--  1 root root      581 apr  9  2018 profile
+drwxr-xr-x  2 root root     4096 feb  3 20:26 profile.d
+-rw-r--r--  1 root root     2932 dec 26  2016 protocols
+drwxr-xr-x  2 root root     4096 feb  3 20:26 pulse
+drwxr-xr-x  2 root root     4096 feb  3 20:25 python2.7
+drwxr-xr-x  2 root root     4096 feb  3 20:22 python3
+drwxr-xr-x  2 root root     4096 feb  3 20:23 python3.6
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc0.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc1.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc2.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc3.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc4.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc5.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rc6.d
+drwxr-xr-x  2 root root     4096 apr 10 15:37 rcS.d
+drwxr-xr-x  3 root root     4096 feb  3 20:24 resolvconf
+lrwxrwxrwx  1 root root       39 mar  4 10:14 resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
+-rwxr-xr-x  1 root root      268 iul 21  2017 rmt
+-rw-r--r--  1 root root      887 dec 26  2016 rpc
+-rw-r--r--  1 root root     1358 ian 30  2018 rsyslog.conf
+drwxr-xr-x  2 root root     4096 feb  3 20:26 rsyslog.d
+drwxr-xr-x  3 root root     4096 feb  3 20:26 sane.d
+drwxr-xr-x  2 root root     4096 apr 10 14:20 sddm
+-rw-r--r--  1 root root     4141 ian 25  2018 securetty
+drwxr-xr-x  4 root root     4096 feb  3 20:25 security
+drwxr-xr-x  2 root root     4096 mar  4 11:03 selinux
+-rw-r--r--  1 root root    10368 apr  5  2017 sensors3.conf
+drwxr-xr-x  2 root root     4096 feb  3 20:25 sensors.d
+-rw-r--r--  1 root root    19183 dec 26  2016 services
+drwxr-xr-x  3 root root     4096 apr 10 14:20 sgml
+-rw-r-----  1 root shadow   1371 apr 10 15:37 shadow
+-rw-r-----  1 root shadow   1371 apr 10 15:37 shadow-
+-rw-r--r--  1 root root       73 feb  3 20:22 shells
+drwxr-xr-x  2 root root     4096 feb  3 20:25 skel
+drwxr-xr-x  4 root root     4096 feb  3 20:26 speech-dispatcher
+drwxr-xr-x  2 root root     4096 mar  4 10:55 ssh
+drwxr-xr-x  4 root root     4096 feb  3 20:23 ssl
+-rw-r--r--  1 root root       55 apr 10 15:37 subgid
+-rw-r--r--  1 root root       37 apr 10 15:37 subgid-
+-rw-r--r--  1 root root       55 apr 10 15:37 subuid
+-rw-r--r--  1 root root       37 apr 10 15:37 subuid-
+-r--r-----  1 root root      755 ian 18  2018 sudoers
+drwxr-xr-x  2 root root     4096 feb  3 20:23 sudoers.d
+-rw-r--r--  1 root root     2683 ian 18  2018 sysctl.conf
+drwxr-xr-x  2 root root     4096 apr 10 15:37 sysctl.d
+drwxr-xr-x  5 root root     4096 mar 30 13:19 systemd
+drwxr-xr-x  2 root root     4096 feb  3 20:23 terminfo
+drwxr-xr-x  2 root root     4096 feb  3 20:25 thermald
+drwxr-xr-x  2 root root     4096 feb  3 20:27 thunderbird
+-rw-r--r--  1 root root       17 apr 10 11:52 timezone
+drwxr-xr-x  2 root root     4096 apr 20  2018 tmpfiles.d
+-rw-r--r--  1 root root     1260 feb 26  2018 ucf.conf
+drwxr-xr-x  4 root root     4096 mar  4 10:18 udev
+drwxr-xr-x  2 root root     4096 feb  3 20:25 udisks2
+drwxr-xr-x  3 root root     4096 feb  3 20:26 ufw
+-rw-r--r--  1 root root      403 mar  1  2018 updatedb.conf
+drwxr-xr-x  3 root root     4096 feb  3 20:27 update-manager
+drwxr-xr-x  2 root root     4096 mar 30 13:19 update-motd.d
+drwxr-xr-x  2 root root     4096 mai 24  2019 update-notifier
+drwxr-xr-x  2 root root     4096 feb  3 20:25 UPower
+-rw-r--r--  1 root root     1523 mar  6  2018 usb_modeswitch.conf
+drwxr-xr-x  2 root root     4096 feb 23  2018 usb_modeswitch.d
+-rw-r--r--  1 root root       51 feb 19  2016 vdpau_wrapper.cfg
+drwxr-xr-x  2 root root     4096 mar 27 12:43 vim
+lrwxrwxrwx  1 root root       23 mar  4 10:13 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r--  1 root root     4942 apr  8  2019 wgetrc
+-rw-r--r--  1 root root       30 mar 22 16:11 whoopsie
+drwxr-xr-x  2 root root     4096 feb  3 20:26 wpa_supplicant
+drwxr-xr-x 11 root root     4096 feb  3 20:27 X11
+drwxr-xr-x  7 root root     4096 apr 10 14:20 xdg
+drwxr-xr-x  3 root root     4096 apr 10 14:20 xml
+-rw-r--r--  1 root root      477 mar 16  2018 zsh_command_not_found
+-rw-r--r--  1 root root      449 feb 24  2018 zutilsrc
+george@staembed01:~$ history
+    1  sudo su
+    2  exit
+    3  ifconfig
+    4  ip addr
+    5  netstat -nat
+    6  sudo apt-get install net-tools
+    7  sudo su
+    8  exit
+    9  sudo su
+   10  vim dummy.c
+   11  sudo apt install vim
+   12  vim dummy.cs
+   13  sudo apt install geany
+   14  geany
+   15  where git
+   16  sudo apt install git
+   17  git -v
+   18  git --version
+   19  git config --global user.name "George Calin"
+   20  git config --global user.email "george.calin@gmail.com"
+   21  ls
+   22  cd Projects
+   23  git init 
+   24  ls
+   25  LS
+   26  ls
+   27  cd Projects
+   28  ls
+   29  git clone https://github.com/georgecatalin-CodePractice-Courses/Learning-C.git
+   30  geany dummy.c
+   31  ls
+   32  cd Learning-C
+   33  ls
+   34  git add dummy.c
+   35  git commit -m "Introducing C code"
+   36  git push origin master
+   37  mkdir test
+   38  delete test
+   39  rm test
+   40  rm -d test
+   41  sudo apt-get install g++
+   42  ls
+   43  git init
+   44  git add main.c
+   45  git commit -m "my first commit with command line" 
+   46  git status
+   47  git info
+   48  git remote -v
+   49  git init
+   50  git remote add origin https://github.com/georgecatalin-CodePractice-Courses/C-Essential-Training-The-Basics.git
+   51  git info
+   52  git status
+   53  git clone origin
+   54  git remote -v
+   55  git clone remote origin
+   56  git clone origin
+   57  git clone https://github.com/georgecatalin-CodePractice-Courses/C-Essential-Training-The-Basics.git
+   58  ls
+   59  cd 
+   60  ls
+   61  cd Documents
+   62  ls
+   63  cd 'C Essential Training'
+   64  ls
+   65  cd C-Essential-Training-The-Basics
+   66  ls
+   67  git add Hello.c
+   68  git status
+   69  git commit -m "Writing a simple program"
+   70  git push remote origin
+   71  git push origin master
+   72  ls
+   73  git add Preprocessor.c
+   74  git commit -m "Exploring the preprocessor"
+   75  git push origin master
+   76  man printf()
+   77  man printf
+   78  ls
+   79  git add constants_example1.c
+   80  git add constants_example2.c
+   81  git add constants make_new_variables.c
+   82  git add  make_new_variables.c
+   83  git add variable_scope_example1.c
+   84  git add variable_scope_extern.c
+   85  git commit -m "Variables and constants."
+   86  git push origin master
+   87  pw
+   88  pws
+   89  pwd
+   90  ls
+   91  git add make_new_variables.c
+   92  git add make_new_variable_1.c
+   93  git commit -m "Make new variables"
+   94  git push origin master
+   95  ls
+   96  git add using_typedef_with_structures_1.c
+   97  git add using_typedef_with_structures_2.c
+   98  git add using_typedef_with_structures_3.c
+   99  git add define_new_datatype.c
+  100  git commit -m "Using typedef with structures."
+  101  git push origin master
+  102  ls
+  103  git add specify_real_numbers_1.c
+  104  git add using_assignment_operators.c
+  105  git commit -m "Using assignment operators."
+  106  git push origin master
+  107  git pull
+  108  gcc passing_an_array_to_a_function_by_element.c -o passing_an_array_to_a_function_by_element
+  109  ./passing_an_array_to_a_function_by_element 
+  110  git clone https://github.com/georgecatalin-CodePractice-Courses/Learn-Data-Structures-and-Pointers-in-C.git
+  111  gcc passing_an_array_to_a_function_by_array.c -o passing_an_array_to_a_function_by_array
+  112  ./passing_an_array_to_a_function_by_array 
+  113  gcc working_with_multidimensional_arrays.c -o working_with_multidimensional_arrays
+  114  ./working_with_multidimensional_arrays
+  115  make working_with_multidimensional_arrays
+  116  gcc working_with_multidimensional_arrays.c -o working_with_multidimensional_arrays
+  117  gcc working_with_multidimensional_arrays.c -o 223d
+  118  gcc working_with_multidimensional_arrays.c -o working_with_multidimensional_arrays
+  119  ./working_with_multidimensional_arrays 
+  120  ./wo
+  121  ./working_with_multidimensional_arrays
+  122  gcc multidimensional_arrays.c -o multidimensional_arrays
+  123  ls
+  124  cd 
+  125  cd ./.
+  126  cd ..
+  127  pwd
+  128  cd ~/Documents
+  129  ls
+  130  cd Learn-Data-Structures-and-Pointers-in-C/
+  131  ls
+  132  gcc multidimensional_arrays.c -o multidimensional_arrays
+  133  ./multidimensional_arrays 
+  134  gcc multidimensional_arrays,c -o multidimensional_arrays
+  135  ls
+  136  gcc multidimensional_arrays.c -o multidimensional_arrays
+  137  ./multidimensional_arrays 
+  138  gcc multidimensional_arrays.c -o multidimensional_arrays
+  139  ./multidimensional_arrays 
+  140  gcc multidimensional_arrays.c -o multidimensional_arrays
+  141  ./multidimensional_arrays 
+  142  gcc multidimensional_arrays.c -o multidimensional_arrays
+  143  ./multidimensional_arrays 
+  144  pwd
+  145  cd Documents
+  146  ls
+  147  cs Learn-Data-Structures-and-Pointers-in-C/
+  148  cd Learn-Data-Structures-and-Pointers-in-C/
+  149  ls
+  150  gcc using_single_character_io.c -o using_single_character_io
+  151  ./using_single_character_io 
+  152  ls
+  153  gcc using_single_character_io_putc.c -o using_single_character_io_putc
+  154  ./using_single_character_io_puyc
+  155  ./using_single_character_io_putc
+  156  gcc using_single_character_io_getchar.c -o using_single_character_io_getchar
+  157  ./using_single_character_io_getchar
+  158  gcc using_single_character_io_getchar_multiple_chars.c -o using_single_character_io_getchar_multiple_chars
+  159  ./using_single_character_io_getchar_multiple_chars 
+  160  gcc using_single_character_io_getc.c -o usingls
+  161  ls
+  162  gcc using_single_character_io_getc.c -o using_single_character_io_getc
+  163  ./using_single_character_io_getc
+  164  gcc using
+  165  gcc using_single_character_io_typewriter.c -o using_single_character_io_typewriter
+  166  ./using_single_character_io_typewriter 
+  167  gcc testing_characters_isalpha.c -o testing_characters_isalpha
+  168  ./testing_characters_isalpha 
+  169  ls
+  170  gcc testing_characters_isdigit.c -o testing_characters_isdigit
+  171  ./testing_characters_isdigit 
+  172  gcc testing_characters_isupper.c -o testing_characters_isupper
+  173  ./testing_characters_isupper 
+  174  gcc testing_characters_islower.c -o testing_characters_islower
+  175  ./te
+  176  ./testing_characters_islower
+  177  gcc working_with_tolower.c -o working_with_tolower
+  178  ./working_with_tolower 
+  179  gcc working_with_tolower.c -o working_with_tolower
+  180  ./working_with_tolower 
+  181  gcc working_with_tolower.c -o working_with_tolower
+  182  ./working_with_tolower 
+  183  gcc working_with_tolower.c -o working_with_tolower
+  184  ./working_with_tolower 
+  185  gcc working_with_toupper.c -o working_with_toupper
+  186  ./working_with_toupper 
+  187  gcc working_with_mixed.c -o working_with_mixed
+  188  ./working_with_mixed
+  189  gcc fetching_string_input_scanf.c -o fetching_string_input_scanf
+  190  ./fetching_string_input_scanf 
+  191  gcc fetching_string_input_fgets.c -o fetchingfet
+  192  gcc fetching_string_input_fgets.c -o fetching_string_input_fgets
+  193  ./fetching_string_input_fgets
+  194  cd Documents
+  195  ls
+  196  cd Learn-Data-Structures-and-Pointers-in-C/
+  197  ls
+  198  gcc strlen.c -o strlen
+  199  ./strlen 
+  200  ls
+  201  gcc Exploring_string_functions_strcmp.c -o Exploring_string_functions_strcmp
+  202  cd Documents
+  203  cd Learn-Data-Structures-and-Pointers-in-C/
+  204  gcc Exploring_string_functions_strcmp.c -o Exploring_string_functions_strcmp
+  205  ./Exploring_string_functions_strcmp 
+  206  gcc Exploring_string_functions_strstr.c -o Exploring_string_functions_strstr
+  207  ./Exploring_string_functions_str
+  208  ./Exploring_string_functions_strstr
+  209  gcc Exploring_string_functions_strstr.c -o Exploring_string_functions_strstr
+  210  ./Exploring_string_functions_strstr
+  211  gcc Exploring_string_functions_strstr2.c -o Exploring_string_functions_strstr
+  212  ./Exploring_string_functions_strstr
+  213  ls
+  214  gcc manipulating_string_strcpy.c -o manipulating_string_strcpy
+  215  ./manipulating_string_strcpy 
+  216  gcc manipulating_string_strcpy.c -o manipulating_string_strcpy
+  217  ./manipulating_string_strcpy 
+  218  ls
+  219  pwd
+  220  ls
+  221  cd D
+  222  cd Documents
+  223  cd L
+  224  ls
+  225  cd Learn-Data-Structures-and-Pointers-in-C/
+  226  ls
+  227  gcc understanding_pointers.c -o u
+  228  ls
+  229  pwd
+  230  cd Documents/
+  231  cd Learn-Data-Structures-and-Pointers-in-C/
+  232  gcc value_of_pointer_vs_variable.c -o value_of_pointer_vs_variable
+  233  ./value_of_pointer_vs_variable 
+  234  ls
+  235  gcc use_pointers_to_modify_data.c -o use_pointers_to_modify_data
+  236  ./use
+  237  ./use_pointers_to_modify_data 
+  238  gcc doing_pointer_math.c -o doing_pointer_math
+  239  ./doing_pointer_math 
+  240  gcc doing_pointer_math_example_2.c -o doing_pointer_math_example_2
+  241  ./doing_pointer_math_example
+  242  ./doing_pointer_math_example_2
+  243  gcc doing_pointer_math_char_array.c -o doing_pointer_math_char_array
+  244  ./doing_pointer_math_char_array 
+  245  gcc doing_pointer_math_floar_array.c -o doing_pointer_math_floar_array
+  246  ./doing_pointer_math_floar_array 
+  247  gcc size_of_data_types.c -o size_of_data_types
+  248  ./size_of_data_types 
+  249  ls
+  250  cd Doc
+  251  pwd
+  252  cd Documents/
+  253  cd Learn-Data-Structures-and-Pointers-in-C/
+  254  gcc comparing_pointers_arrays.c -0 comparing_pointers_arrays
+  255  gcc comparing_pointers_arrays.c -o comparing_pointers_arrays
+  256  ./comparing_pointers_arrays 
+  257  gcc get_address_of_an_array.c -o get_address_of_an_array
+  258  ./get_address_of_an_array 
+  259  gcc get_addresses_elements_array.c -o get_addresses_elements_array
+  260  ./get_addresses_elements_array 
+  261  gcc get_addresses_elements_array.c -o get_addresses_elements_array
+  262  ./get_addresses_elements_array 
+  263  gcc accessing_each_element_of_array.c -o -accessing_each
+  264  ./accessing_each
+  265  ls
+  266  gcc accessing_each_element_of_array.c -o accessing_each_element_of_array
+  267  ./accessing_each_element_of_array
+  268  gcc accessing_each_element_of_array.c -o accessing_each_element_of_array
+  269  ./accessing_each_element_of_array
+  270  gcc allocating_memory.c -o allocating_memory
+  271  ./allocating_memory 
+  272  gcc allocating_memory_int_array.c -o allocating_memory_int_array
+  273  ./allocating_memory_int_array 
+  274  ls
+  275  gcc building_an_array_of_pointers.c -o building_an_array_of_pointers
+  276  ./building_an_array_of_pointers 
+  277  ls
+  278  gcc building_an_array_of_pointers_accessing_it_pointer_notation.c -o building_an_array_of_pointers_accessing_it_pointer_notation
+  279  ./building_an_array_of_pointers_accessing_it_pointer_notation
+  280  gcc swapping_elements_in_an_array_of_characters.c -o swapping_elements_in_an_array_of_characters
+  281  ./swapping_elements_in_an_array_of_characters
+  282  gcc pointers_to_pointers_of_array.c -o pointers_to_pointers_of_array
+  283  ./pointers_to_pointers_of_array 
+  284  gcc pointers_to_pointers_of_array_2.c -o pointers_to_pointers_of_array_2
+  285  gcc pointers_to_pointers_of_array.c -o pointers_to_pointers_of_array_2.c
+  286  ./pointers_to_pointers_of_array_2
+  287  gcc pointers_to_pointers_of_array2.c -o pointers_to_pointers_of_array2
+  288  ./pointers_to_pointers_of_array2
+  289  gcc pointers_in_structures.c -o pointers_in_structures
+  290  ./pointers_in_structures 
+  291  gcc pointers_in_structures.c -o pointers_in_structures
+  292  ./pointers_in_structures 
+  293  gcc pointers_in_structures.c -o pointers_in_structures
+  294  ./pointers_in_structures 
+  295  gcc using_a_structure_of_type_pointer.c -o using_a_structure_of_type_pointer
+  296  ./using_a_structure_of_type_pointer
+  297  pwd
+  298  cd Documents/
+  299  cd Le
+  300  cd Learn-Data-Structures-and-Pointers-in-C/
+  301  gcc passing_pointers_to_functions_example_1.c -o passing_pointers_to_functions_example_1
+  302  ./passing_pointers_to_functions_example_1 
+  303  gcc passing_pointers_to_functions_example_2.c -o passing_pointers_to_functions_example_2
+  304  ./passing_pointers_to_functions_example_2
+  305  gcc passing_pointers_to_functions_example_3.c -o passing_pointers_to_functions_example_3
+  306  ./passing_pointers_to_functions_example_3
+  307  gcc passing_pointers_to_functions_example_3.c -o passing_pointers_to_functions_example_3
+  308  ./passing_pointers_to_functions_example_3
+  309  gcc passing_pointers_to_functions_example_3.c -o passing_pointers_to_functions_example_3
+  310  ./passing_pointers_to_functions_example_3
+  311  gcc passing_pointers_to_functions_example_4.c -o passing_pointers_to_functions_example_4
+  312  ./passing_pointers_to_functions_example_4
+  313  gcc passing_pointers_to_functions_example_5.c -o passing_pointers_to_functions_example_5
+  314  ./passing_pointers_to_functions_example_5
+  315  gcc functions_return_pointers_example_1.c -o functions_return_pointers_example_1
+  316  ./functions_return_pointers_example_1 
+  317  gcc functions_return_pointers_example_1.c -o functions_return_pointers_example_1
+  318  ./functions_return_pointers_example_1 
+  319  gcc functions_return_pointers_example_2.c -o functions_return_pointers_example_2
+  320  gcc functions_return_pointers_example_2 -o functions_return_pointers_example_2
+  321  gcc functions_return_pointers_example_2.c -o functions_return_pointers_example_2
+  322  ./functions_return_pointers_example_2
+  323  pwd
+  324  cd Documents/
+  325  cd Learn-Data-Structures-and-Pointers-in-C/
+  326  ls
+  327  gcc functions_retrurn_pointers_example_2.c -o functions_retrurn_pointers_example_2
+  328  ./functions_retrurn_pointers_example_2 
+  329  pwd
+  330  cd Documents/
+  331  cd Learn-Data-Structures-and-Pointers-in-C/
+  332  gcc reading_from_a_file.c -o reading_from_a_file
+  333  ./reading_from_a_file 
+  334  gcc reading_from_a_file_example_1.c -o reading_from_a_file_example_1
+  335  ./reading_from_a_file_example_1 
+  336  gcc reading_from_a_file_example_fgets.c -o reading_from_a_file_example_fgets
+  337  ./reading_from_a_file_example_fgets
+  338  gcc writing_to_a_file.c -o writing_to_a_file
+  339  ./writing_to_a_file 
+  340  gcc writing_to_a_file_fputc_w.c -o writing_to_a_file_fputc_w
+  341  ./writing_to_a_file_fputc_w 
+  342  gcc writing_to_a_file_fputc_w.c -o writing_to_a_file_fputc_w
+  343  ./writing_to_a_file_fputc_w 
+  344  gcc writing_to_a_file_fputc_w.c -o writing_to_a_file_fputc_w
+  345  ./writing_to_a_file_fputc_w 
+  346  gcc writing_to_a_file_fputc_a.c -o writing_to_a_file_fputc_a
+  347  ./writing_to_a_file_fputc_a
+  348  gcc writing_raw_data_fwrite.c -o writing_raw_data_fwrite
+  349  ./writing_raw_data_fwrite 
+  350  gcc writing_and_reading_raw_data_fwrite_fread.c  -o writing_and_reading_raw_data_fwrite_fread
+  351  ./writing_and_reading_raw_data_fwrite_fread 
+  352  gcc writing_and_reading_raw_data_fwrite_fread.c  -o writing_and_reading_raw_data_fwrite_fread
+  353  ./writing_and_reading_raw_data_fwrite_fread 
+  354  gcc writing_and_reading_raw_data_fwrite_fread.c  -o writing_and_reading_raw_data_fwrite_fread
+  355  ./writing_and_reading_raw_data_fwrite_fread 
+  356  gcc writing_and_reading_raw_data_fwrite_fread.c  -o writing_and_reading_raw_data_fwrite_fread
+  357  ./writing_and_reading_raw_data_fwrite_fread 
+  358  gcc writing_and_reading_raw_data_fwrite_fread.c  -o writing_and_reading_raw_data_fwrite_fread
+  359  ./writing_and_reading_raw_data_fwrite_fread 
+  360  gcc writing_raw_data_fwrite.c -o writing_raw_data_fwrite
+  361  ./writing_raw_data_fwrite 
+  362  gcc writing_and_reading_raw_data_fwrite_fread
+  363  ./writing_and_reading_raw_data_fwrite_fread 
+  364  gcc reading_multiple_chunks_of_data_at_once.c -o reading_multiple_chunks_of_data_at_once
+  365  ./reading_multiple_chunks_of_data_at_once 
+  366  gcc write_structure_to_file.c -o write_structure_to_file
+  367  ./write_structure_to_file 
+  368  gcc reading_specific_data_from_file.c -o reading_specific_data_from_file
+  369  ./reading_specific_data_from_file 
+  370  gcc manipulating_files_rename.c -o manipulating_files_rename
+  371  ./manipulating_files_rename 
+  372  gcc reading_specific_data_from_file.c -o reading_specific_data_from_file
+  373  gcc manipulating_files_rename.c -o manipulating_files_rename
+  374  ./manipulating_files_rename 
+  375  gcc manipulating_files_unlink.c -o manipulating_files_unlink
+  376  ./manipulating_files_unlink 
+  377  gcc manipulating_files_duplicating_files.c  -o manipulating_files_duplicating_files
+  378  ./manipulating_files_duplicating_files 
+  379  gcc reading_the_file_path.c -o reading_the_file_path
+  380  ./reading_the_file_path 
+  381  gcc reading_the_file_path.c -o reading_the_file_path
+  382  ./reading_the_file_path 
+  383  gcc reading_the_parent_dire
+  384  gcc reading_the_parent_directory_path.c -o reading_the_parent_directory_path
+  385  ./reading_the_parent_directory_path
+  386  gcc opening_and_closing_a_directory.c -o opening_and_closing_a_directory
+  387  ./opening_and_closing_a_directory 
+  388  gcc using_readdir_to_open_and_read_files_from_directory.c -o using_readdir_to_open_and_read_files_from_directory
+  389  ./using_readdir_to_open_and_read_files_from_directory 
+  390  gcc using_readdir_to_open_and_read_files_from_directory.c -o using_readdir_to_open_and_read_files_from_directory
+  391  ./using_readdir_to_open_and_read_files_from_directory 
+  392  gcc using_readdir_to_open_and_read_all\ _files_from_directory.c -o using_readdir_to_open_and_read_all\ _files_from_directory
+  393  ./using_readdir_to_open_and_read_all\ _files_from_directory 
+  394  pwd
+  395  cd Documents
+  396  cd Learn-Data-Structures-and-Pointers-in-C/
+  397  gcc getting_file_information.c -o getting_file_information
+  398  ./getting_file_information 
+  399  gcc getting_file_information.c -o getting_file_information
+  400  ./getting_file_information 
+  401  gcc getting_information_about_all_files_in_directory.c -o getting_information_about_all_files_in_directory
+  402  ./getting_information_about_all_files_in_directory 
+  403  pwd
+  404  cd Documents/
+  405  cd Learn-Data-Structures-and-Pointers-in-C/
+  406  gcc getting_information_about_files_in_a_directory_including_if_directory_or_file.c -o getting_information_about_files_in_a_directory_including_if_directory_or_file
+  407  ./getting_information_about_files_in_a_directory_including_if_directory_or_file 
+  408  gcc using_command_line_arguments.c -o using_command_line_arguments
+  409  ./using_command_line_arguments 
+  410  gcc verifying_for_command_line_arguments.c -o verifying_for_command_line_arguments
+  411  ./verifying_for_command_line_arguments 
+  412  gcc verifying_for_command_line_arguments_using_array_notation.c -o verifying_for_command_line_arguments_using_array_notation
+  413  ./verifying_for_command_line_arguments_using_array_notation 
+  414  gcc calling_the_operating_system.c -o calling_the_operating_system
+  415  ./calling_the_operating_system 
+  416  pwd
+  417  dc Documents/
+  418  cd Documents
+  419  cd Learn-Data-Structures-and-Pointers-in-C/
+  420  gcc working_with_time_time_function.c -o working_with_time_time_function
+  421  ./working_with_time_time_function 
+  422  gcc working_with_time_ctime_function.c -o working_with_time_ctime_function
+  423  ./working_with_time_ctime_function 
+  424  gcc working_with_time_show_specific_time.c -o working_with_time_show_specific_time
+  425  ./working_with_time_show_specific_time 
+  426  gcc working_with_time_function_define_chars_for_week_and_months.c -o working_with_time_function_define_chars_for_week_and_months
+  427  ./working_with_time_function_define_chars_for_week_and_months 
+  428  clear
+  429  gcc sorting_using_bubblesort.c -o sorting_using_bubblesort
+  430  ./sorting_using_bubblesort 
+  431  gcc sorting_using_bubblesort.c -o sorting_using_bubblesort
+  432  ./sorting_using_bubblesort 
+  433  gcc sorting_using_bubblesort.c -o sorting_using_bubblesort
+  434  ./sorting_using_bubblesort 
+  435  cd /boot
+  436  ls
+  437  vim grub
+  438  cd /boot
+  439  ls
+  440  cd grub
+  441  ls
+  442  less grub.cfg
+  443  less /etc/defaut/grub
+  444  less /etc/default/grub
+  445  echo $myvalue
+  446  exit
+  447  echo $myvalue
+  448  exit
+  449  ls /etc/grub
+  450  ls etc/
+  451  ls /etc/
+  452  ls /etc/grub.d
+  453  systemctl get-default
+  454  clear
+  455  ls /
+  456  ls sys
+  457  cd sys
+  458  cd /sys
+  459  ls
+  460  ls block
+  461  ls sda
+  462  ls /sda
+  463  cd /sda
+  464  ls /sda/
+  465  pwd
+  466  ls
+  467  cd /block
+  468  ls /block
+  469  ls block
+  470  ls block/sda
+  471  cat block/sda/size
+  472  pwd
+  473  cd /block
+  474  cd /
+  475  ls
+  476  cd proc
+  477  ls proc
+  478  pwd
+  479  ls
+  480  cat version
+  481  cat version_signature 
+  482  cat partitions
+  483  cd /
+  484  ls
+  485  ls dev
+  486  cd dev
+  487  cd /
+  488  locales
+  489  locals
+  490  clear
+  491  locale
+  492  cd /usr
+  493  ls
+  494  cd local
+  495  ls
+  496  ls etc
+  497  ls /etc
+  498  ls /include
+  499  pwd
+  500  ls include
+  501  ls /include
+  502  ls
+  503  ls include/
+  504  cd include/
+  505  ls
+  506  cd local
+  507  cd ..
+  508  ls
+  509  cd share
+  510  ls
+  511  localctl status
+  512  localctl
+  513  clear
+  514  locale
+  515  localectl status
+  516  localectl list-locales 
+  517  pwd
+  518  echo $PWD
+  519  env
+  520  env | less
+  521  myvalue=1978
+  522  echo $myvalue 
+  523  bash
+  524  echo $myvalue 
+  525  export 
+  526  echo $myvalue 
+  527  bash
+  528  echo $myval
+  529  exit
+  530  echo $myval 
+  531  exit
+  532  myval=10
+  533  echo $myval
+  534  export myval
+  535  bash
+  536  echo $myval
+  537  type wget
+  538  datetimectl
+  539  timedatectl 
+  540  timedatectl list-timezones 
+  541  timedatectl list-timezones |grep -i Europe
+  542  timedatectl set-timezone Europe/Vienna 
+  543  timedatectl 
+  544  timedatectl set-timezone Europe/Bucharest 
+  545  timedatectl 
+  546  clear
+  547  df -ht ext4
+  548  lsblck | grep sd
+  549  lsblk | grep sd
+  550  lsblk |grep sd
+  551  df -ht 
+  552  df -h
+  553  df -ht ext4
+  554  dmesg
+  555  dmesg | grep vl
+  556  dmesg 
+  557  dmesg
+  558  sudo lshw
+  559  cd /etc/apt
+  560  ls
+  561  less sources.list short
+  562  pwd
+  563  ls
+  564  cd sources.list.d/
+  565  ls
+  566  apt list --all-versions 
+  567  apt list --all-versions |wc
+  568  sudo apt update
+  569  apt list --upgradable 
+  570  apt search text
+  571  apt search encypt
+  572  apt search encrypt
+  573  sudo search office
+  574  apt search office
+  575  apt show vim
+  576  apt list --all-versions 
+  577  sudo apt install zutils
+  578  clear
+  579  cd /
+  580  sudo apt search gnome
+  581  sudo apt install ubuntu-gnome-desktop 
+  582  apt search KDE
+  583  apt search kde | grep desktop
+  584  sudo apt-get install kde-plasma-desktop 
+  585  git add managing_linux_environments.txt 
+  586  git commit -m "Managing Linux Environments"
+  587  git push origin master
+  588  pwd
+  589  ls
+  590  sudo apt-get update
+  591  sudo apt-get install info
+  592  info
+  593  type wget
+  594  clear
+  595  ls -a
+  596  ls
+  597  cat /etc/passwd
+  598  ls
+  599  ls -a
+  600  ls --all
+  601  man ls
+  602  ip addr
+  603  ip a
+  604  ls -l
+  605  ls -lh
+  606  ls -lht
+  607  ls -l /etc
+  608  history
+george@staembed01:~$ pwd
+/home/george
+george@staembed01:~$ ls
+Desktop  Documents  Downloads  eclipse-workspace  examples.desktop  GPUCache  Music  Pictures  Public  snap  Templates  Videos
+george@staembed01:~$ touch "This_is_a_new_file"
+george@staembed01:~$ ls
+Desktop  Documents  Downloads  eclipse-workspace  examples.desktop  GPUCache  Music  Pictures  Public  snap  Templates  This_is_a_new_file  Videos
+george@staembed01:~$ less This_is_a_new_file 
+george@staembed01:~$ 
