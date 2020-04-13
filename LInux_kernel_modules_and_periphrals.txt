@@ -1,0 +1,131 @@
+george@staembed01:~$ ls /lib/modules
+5.3.0-28-generic  5.3.0-42-generic  5.3.0-46-generic
+5.3.0-40-generic  5.3.0-45-generic
+george@staembed01:~$ uname -r
+5.3.0-45-generic
+george@staembed01:~$ ls /lib/modules/`uname -r`
+build   modules.alias        modules.dep      modules.softdep
+initrd  modules.alias.bin    modules.dep.bin  modules.symbols
+kernel  modules.builtin      modules.devname  modules.symbols.bin
+misc    modules.builtin.bin  modules.order    vdso
+george@staembed01:~$ cd /lib/modules/`uname -r`/kernel
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ ls
+arch   crypto   fs      lib  net      sound   virt              zfs
+block  drivers  kernel  mm   samples  ubuntu  virtualbox-guest
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ ls
+arch   crypto   fs      lib  net      sound   virt              zfs
+block  drivers  kernel  mm   samples  ubuntu  virtualbox-guest
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ lsmod | grep sound
+soundcore              16384  1 snd
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ modprobe soundcore
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ locate adduser
+/etc/adduser.conf
+/snap/atom/247/usr/share/atom/resources/app/apm/node_modules/npm/lib/adduser.js
+/snap/atom/247/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-client/lib/adduser.js
+/snap/atom/248/usr/share/atom/resources/app/apm/node_modules/npm/lib/adduser.js
+/snap/atom/248/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-client/lib/adduser.js
+/snap/core/8689/etc/adduser.conf
+/snap/core/8689/usr/sbin/adduser
+/snap/core/8689/usr/share/adduser
+/snap/core/8689/usr/share/adduser/adduser.conf
+/snap/core/8689/usr/share/doc/adduser
+/snap/core/8689/usr/share/doc/adduser/changelog.gz
+/snap/core/8689/usr/share/doc/adduser/copyright.gz
+/snap/core/8689/usr/share/doc/adduser/examples
+/snap/core/8689/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core/8935/etc/adduser.conf
+/snap/core/8935/usr/sbin/adduser
+/snap/core/8935/usr/share/adduser
+/snap/core/8935/usr/share/adduser/adduser.conf
+/snap/core/8935/usr/share/doc/adduser
+/snap/core/8935/usr/share/doc/adduser/changelog.gz
+/snap/core/8935/usr/share/doc/adduser/copyright.gz
+/snap/core/8935/usr/share/doc/adduser/examples
+/snap/core/8935/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core18/1668/etc/adduser.conf
+/snap/core18/1668/usr/sbin/adduser
+/snap/core18/1668/usr/share/adduser
+/snap/core18/1668/usr/share/adduser/adduser.conf
+/snap/core18/1668/usr/share/doc/adduser
+/snap/core18/1668/usr/share/doc/adduser/copyright
+/snap/core18/1668/usr/share/doc/adduser/examples
+/snap/core18/1668/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core18/1668/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
+/snap/core18/1668/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
+/snap/core18/1705/etc/adduser.conf
+/snap/core18/1705/usr/sbin/adduser
+/snap/core18/1705/usr/share/adduser
+/snap/core18/1705/usr/share/adduser/adduser.conf
+/snap/core18/1705/usr/share/doc/adduser
+/snap/core18/1705/usr/share/doc/adduser/copyright
+/snap/core18/1705/usr/share/doc/adduser/examples
+/snap/core18/1705/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core18/1705/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
+/snap/core18/1705/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
+/usr/sbin/adduser
+/usr/share/adduser
+/usr/share/adduser/adduser.conf
+/usr/share/doc/adduser
+/usr/share/doc/adduser/TODO
+/usr/share/doc/adduser/changelog.gz
+/usr/share/doc/adduser/copyright
+/usr/share/doc/adduser/examples
+/usr/share/doc/adduser/examples/INSTALL
+/usr/share/doc/adduser/examples/README.gz
+/usr/share/doc/adduser/examples/adduser.local
+/usr/share/doc/adduser/examples/adduser.local.conf
+/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/adduser.conf
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/bash.bashrc
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/profile
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_logout
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_profile
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bashrc
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other/index.html
+/usr/share/locale-langpack/en_AU/LC_MESSAGES/adduser.mo
+/usr/share/locale-langpack/en_CA/LC_MESSAGES/adduser.mo
+/usr/share/locale-langpack/en_GB/LC_MESSAGES/adduser.mo
+/usr/share/locale-langpack/en_US/LC_MESSAGES/adduser.mo
+/usr/share/man/da/man5/adduser.conf.5.gz
+/usr/share/man/da/man8/adduser.8.gz
+/usr/share/man/de/man5/adduser.conf.5.gz
+/usr/share/man/de/man8/adduser.8.gz
+/usr/share/man/es/man5/adduser.conf.5.gz
+/usr/share/man/es/man8/adduser.8.gz
+/usr/share/man/fr/man5/adduser.conf.5.gz
+/usr/share/man/fr/man8/adduser.8.gz
+/usr/share/man/it/man5/adduser.conf.5.gz
+/usr/share/man/it/man8/adduser.8.gz
+/usr/share/man/man5/adduser.conf.5.gz
+/usr/share/man/man8/adduser.8.gz
+/usr/share/man/pl/man5/adduser.conf.5.gz
+/usr/share/man/pl/man8/adduser.8.gz
+/usr/share/man/pt/man5/adduser.conf.5.gz
+/usr/share/man/pt/man8/adduser.8.gz
+/usr/share/man/ru/man5/adduser.conf.5.gz
+/usr/share/man/ru/man8/adduser.8.gz
+/usr/share/man/sv/man5/adduser.conf.5.gz
+/usr/share/man/sv/man8/adduser.8.gz
+/var/lib/dpkg/info/adduser.conffiles
+/var/lib/dpkg/info/adduser.config
+/var/lib/dpkg/info/adduser.list
+/var/lib/dpkg/info/adduser.md5sums
+/var/lib/dpkg/info/adduser.postinst
+/var/lib/dpkg/info/adduser.postrm
+/var/lib/dpkg/info/adduser.templates
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ locate updatedb
+/etc/updatedb.conf
+/etc/alternatives/updatedb
+/etc/alternatives/updatedb.8.gz
+/snap/nvim/130/usr/share/nvim/runtime/ftplugin/updatedb.vim
+/snap/nvim/130/usr/share/nvim/runtime/syntax/updatedb.vim
+/usr/bin/updatedb
+/usr/bin/updatedb.mlocate
+/usr/share/man/man5/updatedb.conf.5.gz
+/usr/share/man/man8/updatedb.8.gz
+/usr/share/man/man8/updatedb.mlocate.8.gz
+/usr/share/vim/vim80/ftplugin/updatedb.vim
+/usr/share/vim/vim80/syntax/updatedb.vim
+george@staembed01:/lib/modules/5.3.0-45-generic/kernel$ 
