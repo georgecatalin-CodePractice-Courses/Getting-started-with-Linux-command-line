@@ -1,0 +1,57 @@
+george@staembed01:~$ pwd
+/home/george
+george@staembed01:~$ ls
+Desktop    eclipse-workspace  Music     snap                Videos
+Documents  examples.desktop   Pictures  Templates
+Downloads  GPUCache           Public    This_is_a_new_file
+george@staembed01:~$ cd Documents/
+george@staembed01:~/Documents$ ls
+'Getting started with Linux Command Line'   New_Directory
+george@staembed01:~/Documents$ cd New_Directory/
+george@staembed01:~/Documents/New_Directory$ getdit file1
+
+Command 'getdit' not found, did you mean:
+
+  command 'gedit' from snap gedit (3.36.0+git7.764f9c67f)
+  command 'gedit' from deb gedit
+
+See 'snap info <snapname>' for additional versions.
+
+george@staembed01:~/Documents/New_Directory$ touch file1
+george@staembed01:~/Documents/New_Directory$ touch file2
+george@staembed01:~/Documents/New_Directory$ touch file3
+george@staembed01:~/Documents/New_Directory$ touch file4
+george@staembed01:~/Documents/New_Directory$ touch file5
+george@staembed01:~/Documents/New_Directory$ touch file6
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file1.save  file2  file3  file4  file5  file6
+george@staembed01:~/Documents/New_Directory$ mkdir New_Dir
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file1.save  file2  file3  file4  file5  file6  New_Dir
+george@staembed01:~/Documents/New_Directory$ cp file1 New_Dir/file1
+george@staembed01:~/Documents/New_Directory$ cd New_Dir/
+george@staembed01:~/Documents/New_Directory/New_Dir$ ls
+file1
+george@staembed01:~/Documents/New_Directory/New_Dir$ mv ../file5 ./file5
+george@staembed01:~/Documents/New_Directory/New_Dir$ ls
+file1  file5
+george@staembed01:~/Documents/New_Directory/New_Dir$ cd ..
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file1.save  file2  file3  file4  file6  New_Dir
+george@staembed01:~/Documents/New_Directory$ rm file1.s*
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  New_Dir
+george@staembed01:~/Documents/New_Directory$ rmdir New_Dir/
+rmdir: failed to remove 'New_Dir/': Directory not empty
+george@staembed01:~/Documents/New_Directory$ rmdir New_Dir/ -a
+rmdir: invalid option -- 'a'
+Try 'rmdir --help' for more information.
+george@staembed01:~/Documents/New_Directory$ touch file11
+george@staembed01:~/Documents/New_Directory$ touch file12
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file11  file12  file2  file3  file4  file6  New_Dir
+george@staembed01:~/Documents/New_Directory$ rm file1?
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  New_Dir
+george@staembed01:~/Documents/New_Directory$ 
+
