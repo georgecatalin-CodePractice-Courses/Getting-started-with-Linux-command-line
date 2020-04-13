@@ -1,0 +1,3062 @@
+
+george@staembed01:~/Documents/New_Directory$ locate adduser
+/etc/adduser.conf
+/snap/atom/247/usr/share/atom/resources/app/apm/node_modules/npm/lib/adduser.js
+/snap/atom/247/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-client/lib/adduser.js
+/snap/atom/248/usr/share/atom/resources/app/apm/node_modules/npm/lib/adduser.js
+/snap/atom/248/usr/share/atom/resources/app/apm/node_modules/npm/node_modules/npm-registry-client/lib/adduser.js
+/snap/core/8689/etc/adduser.conf
+/snap/core/8689/usr/sbin/adduser
+/snap/core/8689/usr/share/adduser
+/snap/core/8689/usr/share/adduser/adduser.conf
+/snap/core/8689/usr/share/doc/adduser
+/snap/core/8689/usr/share/doc/adduser/changelog.gz
+/snap/core/8689/usr/share/doc/adduser/copyright.gz
+/snap/core/8689/usr/share/doc/adduser/examples
+/snap/core/8689/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core/8935/etc/adduser.conf
+/snap/core/8935/usr/sbin/adduser
+/snap/core/8935/usr/share/adduser
+/snap/core/8935/usr/share/adduser/adduser.conf
+/snap/core/8935/usr/share/doc/adduser
+/snap/core/8935/usr/share/doc/adduser/changelog.gz
+/snap/core/8935/usr/share/doc/adduser/copyright.gz
+/snap/core/8935/usr/share/doc/adduser/examples
+/snap/core/8935/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core18/1668/etc/adduser.conf
+/snap/core18/1668/usr/sbin/adduser
+/snap/core18/1668/usr/share/adduser
+/snap/core18/1668/usr/share/adduser/adduser.conf
+/snap/core18/1668/usr/share/doc/adduser
+/snap/core18/1668/usr/share/doc/adduser/copyright
+/snap/core18/1668/usr/share/doc/adduser/examples
+/snap/core18/1668/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core18/1668/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
+/snap/core18/1668/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
+/snap/core18/1705/etc/adduser.conf
+/snap/core18/1705/usr/sbin/adduser
+/snap/core18/1705/usr/share/adduser
+/snap/core18/1705/usr/share/adduser/adduser.conf
+/snap/core18/1705/usr/share/doc/adduser
+/snap/core18/1705/usr/share/doc/adduser/copyright
+/snap/core18/1705/usr/share/doc/adduser/examples
+/snap/core18/1705/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/snap/core18/1705/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
+/snap/core18/1705/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
+/usr/sbin/adduser
+/usr/share/adduser
+/usr/share/adduser/adduser.conf
+/usr/share/doc/adduser
+/usr/share/doc/adduser/TODO
+/usr/share/doc/adduser/changelog.gz
+/usr/share/doc/adduser/copyright
+/usr/share/doc/adduser/examples
+/usr/share/doc/adduser/examples/INSTALL
+/usr/share/doc/adduser/examples/README.gz
+/usr/share/doc/adduser/examples/adduser.local
+/usr/share/doc/adduser/examples/adduser.local.conf
+/usr/share/doc/adduser/examples/adduser.local.conf.examples
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/adduser.conf
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/bash.bashrc
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/profile
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_logout
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bash_profile
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel/dot.bashrc
+/usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other/index.html
+/usr/share/locale-langpack/en_AU/LC_MESSAGES/adduser.mo
+/usr/share/locale-langpack/en_CA/LC_MESSAGES/adduser.mo
+/usr/share/locale-langpack/en_GB/LC_MESSAGES/adduser.mo
+/usr/share/locale-langpack/en_US/LC_MESSAGES/adduser.mo
+/usr/share/man/da/man5/adduser.conf.5.gz
+/usr/share/man/da/man8/adduser.8.gz
+/usr/share/man/de/man5/adduser.conf.5.gz
+/usr/share/man/de/man8/adduser.8.gz
+/usr/share/man/es/man5/adduser.conf.5.gz
+/usr/share/man/es/man8/adduser.8.gz
+/usr/share/man/fr/man5/adduser.conf.5.gz
+/usr/share/man/fr/man8/adduser.8.gz
+/usr/share/man/it/man5/adduser.conf.5.gz
+/usr/share/man/it/man8/adduser.8.gz
+/usr/share/man/man5/adduser.conf.5.gz
+/usr/share/man/man8/adduser.8.gz
+/usr/share/man/pl/man5/adduser.conf.5.gz
+/usr/share/man/pl/man8/adduser.8.gz
+/usr/share/man/pt/man5/adduser.conf.5.gz
+/usr/share/man/pt/man8/adduser.8.gz
+/usr/share/man/ru/man5/adduser.conf.5.gz
+/usr/share/man/ru/man8/adduser.8.gz
+/usr/share/man/sv/man5/adduser.conf.5.gz
+/usr/share/man/sv/man8/adduser.8.gz
+/var/lib/dpkg/info/adduser.conffiles
+/var/lib/dpkg/info/adduser.config
+/var/lib/dpkg/info/adduser.list
+/var/lib/dpkg/info/adduser.md5sums
+/var/lib/dpkg/info/adduser.postinst
+/var/lib/dpkg/info/adduser.postrm
+/var/lib/dpkg/info/adduser.templates
+george@staembed01:~/Documents/New_Directory$ sudo updatedb
+[sudo] password for george: 
+george@staembed01:~/Documents/New_Directory$ cat etc/group | grep ubuntu
+cat: etc/group: No such file or directory
+george@staembed01:~/Documents/New_Directory$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,george
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:george
+floppy:x:25:
+tape:x:26:
+sudo:x:27:george
+audio:x:29:pulse
+dip:x:30:george
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:george
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+input:x:104:
+crontab:x:105:
+syslog:x:106:
+messagebus:x:107:
+netdev:x:108:
+mlocate:x:109:
+ssl-cert:x:110:
+uuidd:x:111:
+avahi-autoipd:x:112:
+bluetooth:x:113:
+rtkit:x:114:
+ssh:x:115:
+lpadmin:x:116:george
+whoopsie:x:117:
+scanner:x:118:saned
+saned:x:119:
+pulse:x:120:
+pulse-access:x:121:
+avahi:x:122:
+colord:x:123:
+geoclue:x:124:
+gdm:x:125:
+george:x:1000:
+sambashare:x:126:george
+vboxsf:x:999:
+sddm:x:127:
+lxd:x:128:george
+george@staembed01:~/Documents/New_Directory$ cat /etc/group | grep ubuntu
+george@staembed01:~/Documents/New_Directory$ cat /etc/group | grep george
+adm:x:4:syslog,george
+cdrom:x:24:george
+sudo:x:27:george
+dip:x:30:george
+plugdev:x:46:george
+lpadmin:x:116:george
+george:x:1000:
+sambashare:x:126:george
+lxd:x:128:george
+george@staembed01:~/Documents/New_Directory$ cat /etc/group | grep george >> myfile
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat myfile
+adm:x:4:syslog,george
+cdrom:x:24:george
+sudo:x:27:george
+dip:x:30:george
+plugdev:x:46:george
+lpadmin:x:116:george
+george:x:1000:
+sambashare:x:126:george
+lxd:x:128:george
+george@staembed01:~/Documents/New_Directory$ cat /etc/group | grep george >file1
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat fileq
+cat: fileq: No such file or directory
+george@staembed01:~/Documents/New_Directory$ cat file1
+adm:x:4:syslog,george
+cdrom:x:24:george
+sudo:x:27:george
+dip:x:30:george
+plugdev:x:46:george
+lpadmin:x:116:george
+george:x:1000:
+sambashare:x:126:george
+lxd:x:128:george
+george@staembed01:~/Documents/New_Directory$ head /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,george
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+george@staembed01:~/Documents/New_Directory$ ls /etc/
+acpi                    debian_version       hp               machine-id           popularity-contest.conf  subgid-
+adduser.conf            default              ifplugd          magic                ppp                      subuid
+alternatives            deluser.conf         ImageMagick-6    magic.mime           profile                  subuid-
+anacrontab              depmod.d             init             mailcap              profile.d                sudoers
+apache2                 dhcp                 init.d           mailcap.order        protocols                sudoers.d
+apg.conf                dictionaries-common  initramfs-tools  manpath.config       pulse                    sysctl.conf
+apm                     dnsmasq.d            inputrc          mc                   python2.7                sysctl.d
+apparmor                dnsmasq.d-available  insserv.conf.d   mime.types           python3                  systemd
+apparmor.d              dpkg                 iproute2         mke2fs.conf          python3.6                terminfo
+apport                  emacs                issue            modprobe.d           rc0.d                    thermald
+appstream.conf          environment          issue.net        modules              rc1.d                    thunderbird
+apt                     ethertypes           java-11-openjdk  modules-load.d       rc2.d                    timezone
+avahi                   firefox              java-8-openjdk   mtab                 rc3.d                    tmpfiles.d
+bash.bashrc             fonts                kernel           mtools.conf          rc4.d                    ucf.conf
+bash_completion         fstab                kernel-img.conf  mysql                rc5.d                    udev
+bash_completion.d       fuse.conf            kerneloops.conf  nanorc               rc6.d                    udisks2
+bindresvport.blacklist  fwupd                ksysguarddrc     netbeans.clusters    rcS.d                    ufw
+binfmt.d                gai.conf             ldap             netbeans.conf        resolvconf               updatedb.conf
+bluetooth               gconf                ld.so.cache      netbeans.import      resolv.conf              update-manager
+brlapi.key              gdb                  ld.so.conf       netplan              rmt                      update-motd.d
+brltty                  gdm3                 ld.so.conf.d     network              rpc                      update-notifier
+brltty.conf             geoclue              legal            networkd-dispatcher  rsyslog.conf             UPower
+ca-certificates         ghostscript          libao.conf       NetworkManager       rsyslog.d                usb_modeswitch.conf
+ca-certificates.conf    glvnd                libaudit.conf    networks             sane.d                   usb_modeswitch.d
+calendar                gnome                libblockdev      newt                 sddm                     vdpau_wrapper.cfg
+catdocrc                groff                libnl-3          nsswitch.conf        securetty                vim
+chatscripts             group                libpaper.d       opt                  security                 vtrgb
+console-setup           group-               libreoffice      os-release           selinux                  wgetrc
+cracklib                grub.d               lighttpd         PackageKit           sensors3.conf            whoopsie
+cron.d                  gshadow              lintianrc        pam.conf             sensors.d                wpa_supplicant
+cron.daily              gshadow-             locale.alias     pam.d                services                 X11
+cron.hourly             gss                  locale.gen       papersize            sgml                     xdg
+cron.monthly            gtk-2.0              localtime        passwd               shadow                   xml
+crontab                 gtk-3.0              logcheck         passwd-              shadow-                  zsh_command_not_found
+cron.weekly             hdparm.conf          login.defs       pcmcia               shells                   zutilsrc
+cups                    host.conf            logrotate.conf   perl                 skel
+cupshelpers             hostname             logrotate.d      pki                  speech-dispatcher
+dbus-1                  hosts                lsb-release      pm                   ssh
+dconf                   hosts.allow          ltrace.conf      pnm2ppa.conf         ssl
+debconf.conf            hosts.deny           lvm              polkit-1             subgid
+george@staembed01:~/Documents/New_Directory$ head /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,george
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+george@staembed01:~/Documents/New_Directory$ tail /etc/group/
+tail: cannot open '/etc/group/' for reading: Not a directory
+george@staembed01:~/Documents/New_Directory$ tail /etc/group
+pulse-access:x:121:
+avahi:x:122:
+colord:x:123:
+geoclue:x:124:
+gdm:x:125:
+george:x:1000:
+sambashare:x:126:george
+vboxsf:x:999:
+sddm:x:127:
+lxd:x:128:george
+george@staembed01:~/Documents/New_Directory$ cut -d: -f4 /etc/group
+
+
+
+
+syslog,george
+
+
+
+
+
+
+
+
+
+
+
+
+george
+
+
+george
+pulse
+george
+
+
+
+
+
+
+
+
+
+
+
+george
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+george
+
+saned
+
+
+
+
+
+
+
+
+george
+
+
+george
+george@staembed01:~/Documents/New_Directory$ cut -d: -f3 /etc/group | sort -n
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+13
+15
+20
+21
+22
+24
+25
+26
+27
+29
+30
+33
+34
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+50
+60
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+999
+1000
+65534
+george@staembed01:~/Documents/New_Directory$ cut -d: -f3 /etc/group | sort -rn
+65534
+1000
+999
+128
+127
+126
+125
+124
+123
+122
+121
+120
+119
+118
+117
+116
+115
+114
+113
+112
+111
+110
+109
+108
+107
+106
+105
+104
+103
+102
+101
+100
+60
+50
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+34
+33
+30
+29
+27
+26
+25
+24
+22
+21
+20
+15
+13
+12
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+george@staembed01:~/Documents/New_Directory$ wc /etc/group
+ 69  69 975 /etc/group
+george@staembed01:~/Documents/New_Directory$ echo "Hello, World!" 
+Hello, World!
+george@staembed01:~/Documents/New_Directory$ echo "Hello, World!" >> file2
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat file2
+Hello, World!
+george@staembed01:~/Documents/New_Directory$ echo "Hello, World!" 1>file3
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat file3
+Hello, World!
+george@staembed01:~/Documents/New_Directory$ echo "You suck!" stdout>file4
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat file4
+You suck! stdout
+george@staembed01:~/Documents/New_Directory$ wget pluralsight.com
+--2020-04-13 13:56:21--  http://pluralsight.com/
+Resolving pluralsight.com (pluralsight.com)... 54.148.56.39, 35.165.144.200, 35.165.141.199
+Connecting to pluralsight.com (pluralsight.com)|54.148.56.39|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.pluralsight.com:443/ [following]
+--2020-04-13 13:56:21--  https://www.pluralsight.com/
+Resolving www.pluralsight.com (www.pluralsight.com)... 104.19.161.127, 104.19.162.127, 2606:4700::6813:a27f, ...
+Connecting to www.pluralsight.com (www.pluralsight.com)|104.19.161.127|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+index.html                              [ <=>                                                             ] 106,36K  --.-KB/s    in 0,005s  
+
+2020-04-13 13:56:22 (21,1 MB/s) - ‘index.html’ saved [108909]
+
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  index.html  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<meta name="appRedirectPath" content="/id/dashboard" />
+<meta name="keywords">
+<meta name="description" content="Stay Home! Skill Up! Get FREE access to 7,000+ Pluralsight courses during the month of April. THE technology skills platform with expert-led, online courses for web development, IT training and more! Start learning today!">
+<meta property="og:description" content="Stay Home! Skill Up! Get FREE access to 7,000+ Pluralsight courses during the month of April. THE technology skills platform with expert-led, online courses for web development, IT training and more! Start learning today!">
+<meta name="twitter:description" content="Stay Home! Skill Up! Get FREE access to 7,000+ Pluralsight courses during the month of April. THE technology skills platform with expert-led, online courses for web development, IT training and more! Start learning today!">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@pluralsight" />
+<meta property="og:image" content="https://www.pluralsight.com/content/pluralsight/en/jcr:content/image-res/file.transform/share-image/image.img.83b5f52b-38f5-4b8a-ae2e-f393d9a11f38.jpg" />
+<meta name="twitter:image" content="https://www.pluralsight.com/content/pluralsight/en/jcr:content/image-res/file.transform/share-image/image.img.83b5f52b-38f5-4b8a-ae2e-f393d9a11f38.jpg" />
+<meta name="robots" content="index, follow">
+<meta name="content-type" content="Page" />
+<meta name="categories" content="page" />
+<meta name="cludo:category" content="page" />
+<link rel="canonical" href="https://www.pluralsight.com" />
+<script data-cfasync="false">window.wcmmodedisabled = true;</script>
+<script type="text/javascript" async defer src="//api7831.d41.co/sync/"></script>
+<script type="text/javascript" src="//cdn-0.d41.co/tags/dnb_coretag_v4.min.js"></script>
+<script data-cfasync="false">
+function getParameterByName(e,n){n||(n=window.location.href),e=e.replace(/[\[\]]/g,"\\$&");var o=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(n);return o&&o[2]?decodeURIComponent(o[2].replace(/\+/g," ")):""}function changeHistoryQueryParam(e,n,o,t,a){if(history.pushState){var i=""==window.location.search?"?":window.location.search;if(-1!==decodeURIComponent(i).indexOf(e+"=")){var d=getParameterByName(e);if(t)if(o){var c=(p=d.split(",")).indexOf(n);if(c>-1&&p.splice(c,1),0===p.length){var r=new RegExp("&?"+e+"=[^&]*","g");i=i.replace(r,"")}else i=i.replace(e+"="+encodeURIComponent(d),e+"="+encodeURIComponent(p.join(",")))}else{var p=[];d?p=d.split(","):d="",-1===p.indexOf(n)&&(p.push(n),i=i.replace(e+"="+encodeURIComponent(d),e+"="+encodeURIComponent(p.join(","))))}else if(o){r=new RegExp("&?"+e+"=[^&]*","g");i=i.replace(r,"")}else i=i.replace(e+"="+encodeURIComponent(d),e+"="+encodeURIComponent(n))}else o||(i+="?"==i?e+"="+encodeURIComponent(n):"&"+e+"="+encodeURIComponent(n));var s=window.location.protocol+"//"+window.location.host+window.location.pathname+(a?decodeURIComponent(i):i);window.history.pushState({path:s},"",s)}}function dtmEventTrigger(e,n){var o=new CustomEvent(e,{bubbles:!0,cancelable:!1,detail:n});document.querySelector("body").dispatchEvent(o)}window.loadRemoteScript=function(e,n,o,t,a){var i=document.createElement("script");i.type=n||"text/javascript",i.id=t||null,1==o&&(i.async=o||1),i.readyState?i.onreadystatechange=function(){"loaded"!=i.readyState&&"complete"!=i.readyState||(i.onreadystatechange=null,a())}:i.onload=function(){a()},i.src=("https:"==document.location.protocol?"https://":"http://")+e,document.getElementsByTagName("head")[0].appendChild(i)};var doNotTrack=document.cookie.indexOf("ps_optout=1")>-1||document.URL.indexOf("dnt=true")>-1,oneHour=36e5,oneYear=24*oneHour*365,trkDate=new Date(Date.now()+oneHour);document.cookie="ps_trk="+(doNotTrack?"0":"1")+"; expires="+trkDate.toUTCString()+"; path=/"+(document.URL.indexOf("pluralsight.com")>-1?"; domain=pluralsight.com":"");var firstVisit=-1==document.cookie.indexOf("fv=");document.cookie="fv="+(firstVisit?"1":"0")+"; expires="+new Date(Date.now()+oneYear).toUTCString()+"; path=/"+(document.URL.indexOf("pluralsight.com")>-1?"; domain=pluralsight.com":""),window.dnbData={},document.cookie.indexOf("ps_trk=1")>-1&&"undefined"!=typeof dnbvid&&dnbvid.getData("api7831","json","T",function(e){window.dnbData=e,window.promoCheck&&!window.promoCheckRan&&window.promoCheck()}),document.addEventListener("at-content-rendering-succeeded",function(){window.targetFinished=!0},!1),document.addEventListener("at-content-rendering-failed",function(){window.targetFinished=!0},!1),document.addEventListener("at-content-rendering-no-offers",function(){window.targetFinished=!0},!1);
+</script>
+<script data-cfasync="false" src="/etc/clientlibs/pluralsight/main/js/separates/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="/etc/clientlibs/pluralsight/uber.min.2ac47bef7382cfa3fc7dfe76b46b74de.css" type="text/css">
+<link rel="preload" id="font-preloader" href="//cloud.typography.com/6966154/7969012/css/fonts.css" as="style" onload="if (document.querySelector('body')){ document.querySelector('body').classList.remove('font-loading');this.onload=null;this.rel='stylesheet' }" />
+<script>
+        window.onload = function(){
+            if (jQuery('link[rel="stylesheet"][href*="cloud.typography.com"]').length == 0){
+                //typography didn't load - browser may not support preload.
+                jQuery('link[href*="cloud.typography.com"]').remove();
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = '//cloud.typography.com/6966154/7969012/css/fonts.css';
+                document.getElementsByTagName('HEAD')[0].appendChild(link);
+                document.querySelector('body').classList.remove('font-loading');
+            }
+        };
+    </script>
+<noscript><style>
+        .font-loading .title2 h1.title-font-tungsten,
+        .font-loading .title2 h2.title-font-tungsten,
+        .font-loading .title2 h3.title-font-tungsten,
+        .font-loading .title2 h4.title-font-tungsten,
+        .font-loading .title2 h5.title-font-tungsten,
+        .font-loading .title2 h6.title-font-tungsten {
+            display:block !important;
+        }
+    </style></noscript>
+<script data-cfasync="false">
+var appHost="www-stage.pluralsight.com"==window.location.host?"https://app-stage.pluralsight.com":"https://app.pluralsight.com",pagePath=window.location.pathname,redirectPath="",appRedirectTag=document.head.querySelector("[name~='appRedirectPath'][content]");if(appRedirectTag&&(redirectPath=appRedirectTag.content.toString()),!window.is404)if(0==pagePath.indexOf("/product/channels")&&(redirectPath="/channels",-1<document.URL.indexOf("cid=")&&(redirectPath="/channels/details/"+getParameterByName("cid"))),-1<document.cookie.indexOf("www-status-production=")&&-1==document.cookie.indexOf("midCheckout")&&"www.pluralsight.com"==window.location.host||-1<document.cookie.indexOf("www-status-staging=")&&-1==document.cookie.indexOf("midCheckout")&&"www-stage.pluralsight.com"==window.location.host){var aidParam=getParameterByName("aid"),vidParam=getParameterByName("vid"),paramsString="";""!==aidParam&&(paramsString+=(paramsString.includes("?")?"&":"?")+"aid="+aidParam),""!==vidParam&&(paramsString+=(paramsString.includes("?")?"&":"?")+"vid="+vidParam),""!=redirectPath&&-1==document.URL.indexOf("show=home")?window.location=appHost+redirectPath+paramsString:jQuery(document).ready(function(){var t=appHost+"/id/dashboard",e=jQuery(".header_sign_up_link");e.text("My Dashboard"),e.attr("href",t),e.attr("title","My Dashboard"),jQuery(".header_sign_in_link").attr("style","display: none !important")})}else 0!=pagePath.indexOf("/customer/")||"www-stage.pluralsight.com"!=window.location.host&&"www.pluralsight.com"!=window.location.host||-1!=document.cookie.indexOf("midCheckout")?""!=redirectPath?jQuery(document).ready(function(){jQuery(".sign_in_link").attr("href",appHost+"/id?redirectTo="+encodeURIComponent(redirectPath))}):jQuery(document).ready(function(){jQuery(".sign_in_link").attr("href",appHost+"/id?")}):window.location=appHost+"/id?redirectTo="+encodeURIComponent(document.URL);
+</script>
+<script data-cfasync="false">
+function setSelectedInterest(e){var t=new Date;t.setTime(t.getTime()+6048e5),document.cookie="ps_si="+e+"; expires="+t.toUTCString()+"; path=/",window.selectedInterest=e}function setSelectedConsumerType(e){var t=new Date;t.setTime(t.getTime()+6048e5),document.cookie="ps_sct="+e+"; expires="+t.toUTCString()+"; path=/",window.selectedConsumerType=e}function setSelectedBusinessType(e){var t=new Date;t.setTime(t.getTime()+6048e5),document.cookie="ps_sbt="+e+"; expires="+t.toUTCString()+"; path=/",window.selectedBusinessType=e}if(document.cookie.indexOf("ps_si=")>-1&&(window.selectedInterest=document.cookie.split("ps_si=")[1].split(";")[0]),document.cookie.indexOf("ps_sct=")>-1&&(window.selectedConsumerType=document.cookie.split("ps_sct=")[1].split(";")[0]),document.cookie.indexOf("ps_sbt=")>-1&&(window.selectedBusinessType=document.cookie.split("ps_sbt=")[1].split(";")[0]),-1==document.cookie.indexOf("drift_ab")){var driftAbDate=new Date;driftAbDate.setTime(driftAbDate.getTime()+6048e5);var driftAb=0==Math.floor(2*Math.random())?"A":"B";document.cookie="drift_ab="+driftAb+"; expires="+driftAbDate.toUTCString()+"; path=/"}var inflDate=new Date;inflDate.setTime(inflDate.getTime()+18e5);var visNumDate=new Date;if(visNumDate.setTime(visNumDate.getTime()+31536e6),document.cookie.indexOf("ps_infl")>-1){var infl=document.cookie.split("ps_infl=")[1].split(";")[0];document.cookie="ps_infl="+infl+"; expires="+inflDate.toUTCString()+"; path=/"}else{var visNum=1;document.cookie.indexOf("ps_visNum")>-1&&(visNum=parseInt(document.cookie.split("ps_visNum=")[1].split(";")[0])+1),document.cookie="ps_visNum="+visNum+"; expires="+visNumDate.toUTCString()+"; path=/",getParameterByName("aid")||getParameterByName("vid")||""!=document.referrer&&-1==document.referrer.indexOf("pluralsight.com")?document.cookie="ps_infl=1; expires="+inflDate.toUTCString()+"; path=/":document.cookie="ps_infl=0; expires="+inflDate.toUTCString()+"; path=/"}
+</script>
+<script src="//assets.adobedtm.com/launch-EN123ab280156b405ca2abf6acf664d9a0.min.js" async></script>
+<link rel="apple-touch-icon" sizes="57x57" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/etc/clientlibs/pluralsight/main/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/etc/clientlibs/pluralsight/main/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/etc/clientlibs/pluralsight/main/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/etc/clientlibs/pluralsight/main/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/etc/clientlibs/pluralsight/main/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/etc/clientlibs/pluralsight/main/images/favicons/manifest.json">
+<link rel="mask-icon" href="/etc/clientlibs/pluralsight/main/images/favicons/safari-pinned-tab.svg" color="#e71585">
+<link rel="shortcut icon" href="/etc/clientlibs/pluralsight/main/images/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#e71585">
+<meta name="msapplication-TileImage" content="/etc/clientlibs/pluralsight/main/images/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/etc/clientlibs/pluralsight/main/images/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<title>FREE April: Gain Access to Online Developer, IT and Cyber Security Training | Pluralsight</title>
+<meta property="og:title" content="Pluralsight - Unlimited Online Developer, IT,  and Cyber Security Training">
+<meta name="twitter:title" content="Pluralsight - Unlimited Online Developer, IT,  and Cyber Security Training">
+</head>
+<body class="mode-disabled home-template font-loading">
+<div class="site-wrap">
+<div class="nav-context ">
+<noindex>
+<nav class="ps-nav" role="navigation">
+<div class="ps-nav--inner">
+<div class="ps-nav--brand"><a href="/" class="ps-nav--logo"></a></div>
+<div class="ps-nav--links" style="display: none;">
+<ul class="ps-nav--main">
+<li>
+<a href="#" class="ps-nav--primary" data-aa-header-title="Products">Products <span><i class="ps-nav--arrow"></i></span></a>
+<div class="header_dropdown" style="display:none;">
+<div id="header_tabs--products" class="container-sm">
+<div class="closebutton " tabindex="3"></div>
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<div class="link-items">
+<div class="link-products">
+<a href="/product/skills">
+<img src="/etc/clientlibs/pluralsight/main/images/Skill_logo_white.png" alt="Skills logo" />
+<div>Technology skill development</div></a>
+</div>
+<ul>
+<li><a href="/product/skills">Overview</a></li>
+<li class="link-item--title">Solutions for</li>
+<li class="link-item"><a href="/product/skills/personal">Personal use</a></li>
+<li class="link-item"><a href="/product/skills/software-dev">Software Dev teams</a></li>
+<li class="link-item"><a href="/product/skills/it-ops">IT Ops teams</a></li>
+<li class="link-item"><a href="/product/skills/security">Security teams</a></li>
+<li class="cta-item"><a href="/pricing/skills">View plans</a></li>
+</ul>
+</div>
+</div>
+<div class="header_tabs_column">
+<div class="link-items">
+<div class="link-products">
+<a href="/product/flow">
+<img src="/etc/clientlibs/pluralsight/main/images/Flow_Logo_white.png" alt="Flow logo" />
+<div>Data &amp; visibility for dev teams</div></a>
+</div>
+<ul>
+<li><a href="/product/flow">Overview</a></li>
+<li class="link-item--title">Visibility for</li>
+<li class="link-item"><a href="/product/flow/managers">Managers</a></li>
+<li class="link-item"><a href="/product/flow/engineers">Engineers</a></li>
+<li class="link-item"><a href="/product/flow/product-leaders">Product leaders</a></li>
+<li class="link-item"><a href="/product/flow/executives">Executives</a></li>
+<li class="cta-item"><a href="/pricing/flow">View plans</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="ps-nav--courses">
+<a href="#" class="ps-nav--primary" data-aa-header-title="Courses">Courses <span><i class="ps-nav--arrow"></i></span></a>
+<div class="header_dropdown" style="display:none;">
+<div id="header_tabs" class="container-lg">
+<div class="closebutton " tabindex="3"></div>
+<ul>
+<li class="link-items--title show-medium">Categories</li>
+<li class="header_roles software-development header_tabs_link active" data-tab="software-development">
+<a href="/browse/software-development">Software Development</a>
+</li>
+<li class="header_roles it-ops header_tabs_link" data-tab="it-ops">
+<a href="/browse/it-ops">IT Ops</a>
+</li>
+<li class="header_roles data-professional header_tabs_link" data-tab="data-professional">
+<a href="/browse/data-professional">Data Professional</a>
+</li>
+<li class="header_roles info-cybersecurity header_tabs_link" data-tab="info-cybersecurity">
+<a href="/browse/information-cyber-security">Information &amp; Cyber Security</a>
+</li>
+<li class="header_roles architecture-construction header_tabs_link" data-tab="browse-all">
+<a>Browse all technologies</a>
+</li>
+</ul>
+<div id="software-development" class="header_tabs_content active">
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<ul class="header_topics_menu">
+<li class="first">Courses</li>
+<li><a href="/browse/software-development/python">Python</a></li>
+<li><a href="/browse/software-development/javascript">JavaScript</a></li>
+<li><a href="/browse/software-development/java">Java</a></li>
+<li><a href="/browse/software-development/c-sharp">C#</a></li>
+<li><a href="/browse/software-development/web-development">Web Development</a></li>
+<li><a href="/browse/software-development/mobile-development">Mobile Development</a></li>
+<li class="last"><a href="/browse">View all courses &gt;</a></li>
+</ul>
+</div>
+<div class="header_tabs_column paths">
+<ul>
+<li class="first">Paths</li>
+<li>
+<div class="item">
+<a href="/paths/javascript-core-language">
+<div class="item-each">
+<div class="item-image"><img alt="JavaScript" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png?w=60"></div>
+<div class="item-text">
+JavaScript
+<ul>
+<li><span>9</span> Courses</li>
+<li><span>21</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/angular-js">
+<div class="item-each">
+<div class="item-image"><img alt="AngularJS" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png?w=60"></div>
+<div class="item-text">
+AngularJS
+<ul>
+<li><span>14</span> Courses</li>
+<li><span>55</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/java">
+<div class="item-each">
+<div class="item-image"><img alt="Java" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/java-79830005fe.png?w=60"></div>
+<div class="item-text">
+Java
+<ul>
+<li><span>13</span> Courses</li>
+<li><span>48</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li class="last">
+<a href="/product/paths">View all paths &gt;</a>
+</li>
+</ul>
+</div>
+<div class="header_tabs_column paths assessments">
+<ul>
+<li class="first">Assessments</li>
+<li>
+<div class="item">
+<a href="/paths/angular">
+<div class="item-each">
+<div class="item-image"><img alt="Angular" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png?w=60"></div>
+<div class="item-text">
+Angular
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/csharp">
+<div class="item-each">
+<div class="item-image"><img alt="Node.js" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png?w=60"></div>
+<div class="item-text">
+C#
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/python">
+<div class="item-each">
+<div class="item-image"><img alt="Python" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/python-7be70baaac.png?w=60"></div>
+<div class="item-text">
+Python
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li class="last">
+<a href="/product/pluralsight-iq">View all assessments &gt;</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="it-ops" class="header_tabs_content">
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<ul>
+<li class="first">Courses</li>
+<li><a href="/browse/it-ops/it-certifications">IT Certifications</a></li>
+<li><a href="/browse/it-ops/it-networking">IT Networking</a></li>
+<li><a href="/browse/it-ops/security">Security</a></li>
+<li><a href="/browse/it-ops/database-administration">Database Administration</a></li>
+<li><a href="/browse/it-ops/virtualization">Virtualization</a></li>
+<li><a href="/browse/it-ops/servers">Servers</a></li>
+<li class="last"><a href="/browse">View all courses &gt;</a></li>
+</ul>
+</div>
+<div class="header_tabs_column paths">
+<ul>
+<li class="first">Paths</li>
+<li>
+<div class="item">
+<a href="/paths/fundamentals-of-it-operations-skill">
+<div class="item-each">
+<div class="item-image"><img alt="Fundamentals of IT Operations" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/fundamentals-of-it-operations-95797723fe.png?w=60"></div>
+<div class="item-text">
+Fundamentals of IT Operations
+<ul>
+<li><span>29</span> Courses</li>
+<li><span>87</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/comptia-a-220-1001-and-220-1002">
+<div class="item-each">
+<div class="item-image"><img alt="CompTIA A+" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/server-admin-windows-9e9af6b278.png?w=60"></div>
+<div class="item-text">
+CompTIA A+
+<ul>
+<li><span>11</span> Courses</li>
+<li><span>40</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/comptia-network-n10-007">
+<div class="item-each">
+<div class="item-image"><img alt="CompTIA Network+ (N10-007)" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/networks-d4455e1c98.png?w=60"></div>
+<div class="item-text">
+CompTIA Network+
+<ul>
+<li><span>5</span> Courses</li>
+<li><span>16</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li class="last">
+<a href="/product/paths">View all paths &gt;</a>
+</li>
+</ul>
+</div>
+<div class="header_tabs_column paths assessments">
+<ul>
+<li class="first">Assessments</li>
+<li>
+<div class="item">
+<a href="/paths/planning-microsoft-azure-infrastructure">
+<div class="item-each">
+<div class="item-image"><img alt="Planning Microsoft Azure Infrastructure" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/azure-blue-b11372258d.png?w=60"></div>
+<div class="item-text">
+Planning Microsoft Azure Infrastructure
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/networking-fundamentals">
+<div class="item-each">
+<div class="item-image"><img alt="Networking Fundamentals" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/networks-484b57170b.png?w=60"></div>
+<div class="item-text">
+Networking Fundamentals
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/understanding-devops">
+<div class="item-each">
+<div class="item-image"><img alt="Understanding Dev Ops" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/devops-18b91372ed.png?w=60"></div>
+<div class="item-text">
+Understanding Dev Ops
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li class="last">
+<a href="/product/pluralsight-iq">View all assessments &gt;</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="data-professional" class="header_tabs_content">
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<ul>
+<li class="first">Courses</li>
+<li><a href="/browse/data-professional/big-data">Big Data</a></li>
+<li><a href="/browse/data-professional/business-intelligence-data-pro">Business Intelligence</a></li>
+<li><a href="/browse/data-professional/sql">SQL</a></li>
+<li><a href="/browse/data-professional/tableau">Tableau</a></li>
+<li><a href="/browse/data-professional/oracle">Oracle</a></li>
+<li><a href="/browse/data-professional/sql-server">SQL Server</a></li>
+<li class="last"><a href="/browse">View all courses &gt;</a></li>
+</ul>
+</div>
+<div class="header_tabs_column paths">
+<ul>
+<li class="first">Paths</li>
+<li>
+<div class="item">
+<a href="/paths/the-scrum-framework">
+<div class="item-each">
+<div class="item-image"><img alt="Using the Scrum Framework" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/scrum-a5c44d8364.png?w=60"></div>
+<div class="item-text">
+Using the Scrum Framework
+<ul>
+<li><span>7</span> Courses</li>
+<li><span>13</span> Hours</li>
+</ul>
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/microsoft-azure-compute-for-developers">
+<div class="item-each">
+<div class="item-image"><img alt="Microsoft Azure For Developers" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png?w=60"></div>
+<div class="item-text">
+Microsoft Azure Compute for Developers
+<ul>
+<li><span>7</span> Courses</li>
+<li><span>20</span> Hours</li>
+</ul>
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/upgrading-your-technology-career-skill">
+<div class="item-each">
+<div class="item-image"><img alt="Upgrading Your Technology Career" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/fundamentals-of-it-operations-95797723fe.png?w=60"></div>
+<div class="item-text">
+Upgrading Your Technology Career
+<ul>
+<li><span>28</span> Courses</li>
+<li><span>51</span> Hours</li>
+</ul>
+</div>
+</div></a>
+</div>
+</li>
+<li class="last">
+<a href="/product/paths">View all paths &gt;</a>
+</li>
+</ul>
+</div>
+<div class="header_tabs_column paths assessments">
+<ul>
+<li class="first">Assessments</li>
+<li>
+<div class="item">
+<a href="/paths/csharp">
+<div class="item-each">
+<div class="item-image"><img alt="C#" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png?w=60"></div>
+<div class="item-text">
+C#
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/mysql">
+<div class="item-each">
+<div class="item-image"><img alt="MySQL" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/mysql-e0720d7b98.png?w=60"></div>
+<div class="item-text">
+MySQL
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/google-android-associate-developer-aad">
+<div class="item-each">
+<div class="item-image"><img alt="Android" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/android-53f8da146d.png?w=60"></div>
+<div class="item-text">
+Android
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div></a>
+</div>
+</li>
+<li class="last">
+<a href="/product/pluralsight-iq">View all assessments &gt;</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="info-cybersecurity" class="header_tabs_content">
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<ul>
+<li class="first">Courses</li>
+<li><a href="/browse/information-cyber-security">Cyber Security</a></li>
+<li><a href="/browse/information-cyber-security/security-certifications">Security Certifications</a></li>
+<li><a href="/browse/information-cyber-security/penetration-testing">Penetration Testing</a></li>
+<li><a href="/browse/information-cyber-security/security-auditing">Security Auditing</a></li>
+<li><a href="/browse/information-cyber-security/malware-analysis">Malware Analysis</a></li>
+<li><a href="/browse/information-cyber-security/security-fundamentals">Security Fundamentals</a></li>
+<li class="last"><a href="/browse">View all courses &gt;</a></li>
+</ul>
+</div>
+<div class="header_tabs_column paths">
+<ul>
+<li class="first">Paths</li>
+<li>
+<div class="item">
+<a href="/paths/ethical-hacking-fundamentals">
+<div class="item-each">
+<div class="item-image"><img alt="Ethical Hacking Fundamentals" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/comptia-security-plus-a8fd4b7c89.png?w=60"></div>
+<div class="item-text">
+Ethical Hacking Fundamentals
+<ul>
+<li><span>21</span> Courses</li>
+<li><span>79</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/comptia-cybersecurity-analyst-csa-cs0-001">
+<div class="item-each">
+<div class="item-image"><img alt="CySA+ (CompTIA Cybersecurity Analyst) CS0-001" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/comptia-security-plus-a8fd4b7c89.png?w=60"></div>
+<div class="item-text">
+CySA+ (CompTIA Cybersecurity Analyst) CS0-001
+<ul>
+<li><span>7</span> Courses</li>
+<li><span>28</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/sscpr-systems-security-certified-practitioner">
+<div class="item-each">
+<div class="item-image"><img alt="SSCP® (Systems Security Certified Practitioner)" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight.imgix.net/paths/path-icons/info-security-5d8ab8e621.png?w=60"></div>
+<div class="item-text">
+SSCP
+<ul>
+<li><span>11</span> Courses</li>
+<li><span>19</span> Hours</li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li class="last">
+<a href="/product/paths">View all paths &gt;</a>
+</li>
+</ul>
+</div>
+<div class="header_tabs_column paths assessments">
+<ul>
+<li class="first">Assessments</li>
+<li>
+<div class="item">
+<a href="/paths/security-fundamentals">
+<div class="item-each">
+<div class="item-image"><img alt="Security Fundamentals" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/comptia-security-plus-5d8ab8e621.png?w=60"></div>
+<div class="item-text">
+Security Fundamentals
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/paths/security-for-hackers-and-developers">
+<div class="item-each">
+<div class="item-image"><img alt="Security for Hackers and Developers" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pluralsight2.imgix.net/paths/images/comptia-security-plus-5d8ab8e621.png?w=60"></div>
+<div class="item-text">
+Security for Hackers and Developers
+<ul>
+<li>Get your <span>Skill IQ</span></li>
+</ul>
+</div>
+</div>
+</a>
+</div>
+</li>
+<li class="last">
+<a href="/product/pluralsight-iq">View all assessments &gt;</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="browse-all" class="header_tabs_content">
+<div class="header_tabs_content--container">
+<div class="header_tabs_column paths browse">
+<ul>
+<li>
+<div class="item">
+<a href="/browse/software-development">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/software_development.png"></div>
+<div class="item-text">
+Software Development
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/it-ops">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/it_ops.png"></div>
+<div class="item-text">
+IT Ops
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/data-professional">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/data_professional.png"></div>
+<div class="item-text">
+Data Professional
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/architecture-construction">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/architecture_construction.png"></div>
+<div class="item-text">
+Architecture &amp; Construction
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/manufacturing-design">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/manufacturing_design.png"></div>
+<div class="item-text">
+Manufacturing &amp; Design
+</div>
+</div></a>
+</div>
+</li>
+</ul>
+</div>
+<div class="header_tabs_column paths browse">
+<ul>
+<li>
+<div class="item">
+<a href="/browse/cloud-computing">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/cloud.png"></div>
+<div class="item-text">
+Cloud Computing
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/machine-learning">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/machine-learning.png"></div>
+<div class="item-text">
+Machine Learning / AI
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/business-professional">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/business_professional.png"></div>
+<div class="item-text">
+Business Professional
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/information-cyber-security">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/information_security.png"></div>
+<div class="item-text">
+Information &amp; Cyber Security
+</div>
+</div></a>
+</div>
+</li>
+<li>
+<div class="item">
+<a href="/browse/creative-professional">
+<div class="item-each">
+<div class="item-image"><img alt="" src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/global/header/creative_professional.png"></div>
+<div class="item-text">
+Creative Professional
+</div>
+</div></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="/pricing" class="ps-nav--primary">View plans</a>
+</li>
+<li>
+<a href="#" class="ps-nav--primary" data-aa-header-title="Resources">Resources <span><i class="ps-nav--arrow"></i></span></a>
+<div class="header_dropdown" style="display: none;">
+<div id="header_tabs--resources" class="container-lg">
+<div class="closebutton " tabindex="3"></div>
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<div class="link-items">
+<a href="/blog">
+<div>Blog</div>
+<div>Stay up to date on what's happening in technology, leadership, skill development and more.</div>
+</a>
+</div>
+</div>
+<div class="header_tabs_column">
+<div class="link-items">
+<a href="/customer-stories">
+<div>Customer Stories</div>
+<div>See how companies around the world build tech skills at scale and improve engineering impact.</div>
+</a>
+</div>
+</div>
+<div class="header_tabs_column">
+<div class="link-items">
+<a href="/resource-center/webinars">
+<div>Webinars</div>
+<div>Join us for practical tips, expert insights and live Q&amp;A with our top experts.</div>
+</a>
+</div>
+</div>
+<div class="header_tabs_column live-items">
+<div class="link-items">
+<a href="/live"><div>LIVE 2020</div></a>
+<div>The ultimate tech skills conference.</div>
+<a href="/live-europe"><div>LIVE Europe</div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul class="ps-nav--util">
+<li class="ps-nav--contact">
+<div class="euro-phone-number euro-number-desktop" style="display:none;">
+<a href="tel:+441173741780">
+<span>Call us +441173741780</span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210.4 210.39" width="20" height="20">
+<defs><style>.cls-1{fill:none;stroke:#ffffff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;}</style></defs>
+ <path class="cls-1" d="M606.15,228.84a22,22,0,0,0,0-31.13l-23.36-23.36a22,22,0,0,0-31.14,0l-12.8,12.81a33,33,0,0,0-4.17,41.55A511.84,511.84,0,0,0,677.77,371.8a33,33,0,0,0,41.55-4.16l12.81-12.81a22,22,0,0,0,0-31.13l-23.35-23.35a22,22,0,0,0-31.14,0l-7.78,7.78a522.93,522.93,0,0,1-71.5-71.51Z" transform="translate(-528.68 -167.4)" /></svg>
+</a>
+</div>
+</li>
+<li class="ps-nav--search">
+<a href="#" class="ps-nav--primary">
+<svg viewBox="0 0 797 801" width="20" height="20" x="0px" y="0px">
+<path fill="white" stroke="white" stroke-width="40" class="st0" d="M763.6,743.8L508.9,490c22.5-24.3,40-51.9,52.5-82.6s19-64.1,19.6-100c-2.4-77.3-29.2-141.2-80.3-191.7
+            S386.3,39,310.8,37.2c-79.7,1.8-145,28-195.8,78.5S37.9,230.1,36,307.4c2.4,77.3,29.2,141.2,80.3,191.7s114.4,76.7,189.9,78.5
+            c34.1-0.6,65.7-6.4,94.9-17.3c29.2-11,56-26.5,80.3-46.6l253.8,254.7L763.6,743.8z M306.3,537.5c-65.1-1.8-119.3-24.3-162.5-67.6
+            S78,372.6,76.2,307.4c1.8-65.1,24.3-119.4,67.6-163s97.4-66.2,162.5-68c65.1,1.8,119.4,24.5,163,68s66.2,97.8,68,163
+            c-1.8,65.1-24.5,119.3-68,162.5S371.4,535.7,306.3,537.5z" />
+</svg>
+</a>
+<div class="header_dropdown" style="display:none;">
+<div id="header_tabs--search" class="container-lg">
+<div class="header_tabs_content--container">
+<div class="closebutton" tabindex="3"></div>
+<div class="header_nav--menu header_nav_search">
+<div class="header_search search-button__component">
+<form id="header_searchForm" class="header_search--form">
+<input type="text" name="q" class="header_search--input" placeholder="Search Pluralsight" autocomplete="off" tabindex="2">
+</form>
+<a href="/search" class="hidden header_search--url"></a>
+</div>
+</div>
+<div id="header-search-results-all" class="header_tabs_content--container">
+<div id="search-menu__results-dropdown" class="header_tabs_column">
+<div id="header_dropdown--resultList"></div>
+<div id="header_dropdown--resultListCourses"></div>
+</div>
+<div class="header_tabs_column paths">
+<div id="header_dropdown--resultListPaths"></div>
+</div>
+</div>
+</div>
+</div>
+<script id="header-search-categories-templates-partial" type="text/x-handlebars-template">
+    {{#compare this.name '===' 'courses'}}
+    <ul class="header_dropdown--lists">
+        <li class="first">{{{this.name}}}</li>
+        {{#each this.results}}
+            <li><a href="{{formatCourseURL this.courseName 'course'}}">{{{this.title}}}</a></li>
+        {{/each}}
+        <li class="last"><a class="view-all-link" data-tab-param="{{mapResultSetNameToTabName this.name}}" data-categories="{{this.name}}">See more results &gt;</a></li>
+    </ul>
+    {{/compare}}
+</script>
+</div>
+</li>
+<li class="ps-nav--cta">
+<a href="#" class="ps-nav--primary">Sign in <span><i class="ps-nav--arrow"></i></span></a>
+<div class="header_dropdown" style="display: none;">
+<div id="header_tabs--signin" class="container-sm">
+<div class="closebutton " tabindex="3"></div>
+<div class="header_tabs_content--container">
+<div class="header_tabs_column">
+<div class="link-items">
+<a href="https://app.pluralsight.com/id?">
+<div>Sign in with</div>
+<img src="/etc/clientlibs/pluralsight/main/images/Skill_logo_white.png" width="120" alt="Skills logo" />
+</a>
+</div>
+</div>
+<div class="header_tabs_column">
+<div class="link-items">
+ <a href="https://app.pluralsight.com/id/flowusers">
+<div>Sign in with</div>
+<img src="/etc/clientlibs/pluralsight/main/images/Flow_Logo_white.png" width="120" alt="Flow logo" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="ps-nav--cta ps-nav--cta__ft">
+<a href="/pricing/free-trial" class="button button--secondary--white">Try for free</a>
+</li>
+</ul>
+</div>
+<div class="ps-nav--hamburger ">
+<a id="searchMobile" href="#">
+<svg viewBox="0 0 797 801" width="20" height="20" x="0px" y="0px">
+<path fill="white" stroke="white" stroke-width="40" class="st0" d="M763.6,743.8L508.9,490c22.5-24.3,40-51.9,52.5-82.6s19-64.1,19.6-100c-2.4-77.3-29.2-141.2-80.3-191.7
+            S386.3,39,310.8,37.2c-79.7,1.8-145,28-195.8,78.5S37.9,230.1,36,307.4c2.4,77.3,29.2,141.2,80.3,191.7s114.4,76.7,189.9,78.5
+            c34.1-0.6,65.7-6.4,94.9-17.3c29.2-11,56-26.5,80.3-46.6l253.8,254.7L763.6,743.8z M306.3,537.5c-65.1-1.8-119.3-24.3-162.5-67.6
+            S78,372.6,76.2,307.4c1.8-65.1,24.3-119.4,67.6-163s97.4-66.2,162.5-68c65.1,1.8,119.4,24.5,163,68s66.2,97.8,68,163
+            c-1.8,65.1-24.5,119.3-68,162.5S371.4,535.7,306.3,537.5z" />
+</svg>
+</a>
+<a id="menuMobile" href="#">
+<div class="ps-nav--mobileMenu"></div>
+<div class="ps-nav--mobileMenu"></div>
+<div class="ps-nav--mobileMenu"></div>
+</a>
+</div>
+</div>
+</nav>
+<div class="header_padding ps_header_padding"></div>
+</noindex>
+<div>
+<script type="text/javascript" src="//customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+<script>
+
+        var element = document.createElement("link");
+        element.setAttribute("rel", "stylesheet");
+        element.setAttribute("type", "text/css");
+        element.setAttribute("href", "https://customer.cludo.com/css/overlay/cludo-search-default.min.css");
+        document.getElementsByTagName("head")[0].appendChild(element);
+
+        var CludoSearch;
+        (function () {
+            var cludoSettings = {customerId: 10000847, engineId: 10001278, language: 'en', searchInputs: ['cludo-search-form','cludo-search-form']};
+            CludoSearch= new Cludo(cludoSettings);
+            CludoSearch.init();
+        })();
+
+    </script>
+<!--[if lte IE 9]>
+    <script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+    <![endif]-->
+</div>
+<script>
+                if (Math.random() > .5){
+                    if (CludoSearch){
+                        CludoSearch.engineId = 10001374; //use beta engine 50% of the time
+                    }
+                }
+            </script>
+<div id="content" role="main">
+<div class="contain"><div class="generic-block section">
+<div id="block_alt_hero free-april-hero-alt_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--black block--left generic-block--auto  padding-top-fifty padding-bottom-hundred block_alt_hero free-april-hero-alt    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--super-wide">
+<div class="large-6 columns customPadding" style=" padding-right: 0px;"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:80px"></div>
+<div class="spacer show-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-small-only" style="height:0px"></div></div>
+<div class="free-form-component section">
+<style>
+  .block_alt_hero .column-control .column-control-container > .row > .columns:first-child {
+    z-index: 1;
+}
+</style>
+<style>
+.block_alt_hero .alt-hero {display: flex;}
+.block_alt_hero .alt-hero h1 {font-family: 'Gotham A', 'Gotham B', sans-serif; font-weight: 800; font-size: 55px; margin: 0 0 20px;}
+.block_alt_hero .alt-hero--left {flex: 1 0 80px; margin-top: 8px;}
+.block_alt_hero .alt-hero--right {margin-left: 30px; flex: 1 0 100%;}
+.block_alt_hero .text_gradient {
+   background: linear-gradient(to right,  #F15A29 0%, #EC0090 50%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.block_alt_hero .text_white {
+   background: white;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 1025px) {
+     .block_alt_hero .alt-hero h1 {font-size: 90px; line-height: 90%;}
+     .block_alt_hero .alt-hero--left {flex: 1 0 107px; margin-top: 8px;}
+}
+
+
+@media (max-width: 480px) {
+
+.alt-hero--left { display: none; }
+.block_alt_hero .alt-hero--right { margin-left: 0; }
+.block_alt_hero .alt-hero h1 { margin-bottom: 0; font-size: 12vw; }
+
+}
+
+</style>
+<div class="alt-hero">
+<div class="alt-hero--left"><img src="/content/dam/pluralsight2/offer/2020/free-april/stayhome-skillup.jpg" alt="Stay home. Skill up." /></div>
+<div class="alt-hero--right">
+<h1>Join us for <br /> <div class="text_gradient"><span class="text_white">#</span>FREE<span class="text_white">april</span></h1>
+</div>
+</div>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="layout-block section">
+<div>
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12 ">
+<div class="text-4 text aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+<div class="cmp-text">
+<p><span class="fs--medium"><span class="tc-white"><span class="remove-bottom-margin">Our CEO Aaron Skonnard shares why we're making all 7,000+ expert-led video courses and more free for the month of April.</span></span></span></p>
+</div>
+</div>
+</div></div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="ps-button section">
+<div data-emptytext="Button">
+<div>
+<a href="/offer/2020/free-april-month" target="_self" style=" min-width:260px;" class="button  button--gradient button--large  " data-aa-title="Free-April-Start-Now">
+Start now
+</a>
+</div>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+</div>
+<div class="large-6 columns customPadding" style="padding-left: 0px; "><div class="free-form-component section">
+<style>
+  .block_alt_hero .large-6.columns .image.section a {
+    position: relative;
+}
+.block_alt_hero .large-6.columns .image.section a:after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    background-image: url('/content/dam/pluralsight2/general/icons/playbutton-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+</style>
+<script type="text/javascript">
+  /*
+jQuery(document).ready(function() {
+  jQuery('#skonnardVid').on('click', function(e) {
+    jQuery("iframe#video_comp_vid0")[0].src += "&autoplay=1";
+    e.preventDefault();
+ 
+  });
+});
+*/
+
+//video_comp_vid0
+
+</script></div>
+<div class="animation-wrapper section">
+<style type="text/css">
+        @media only screen and (min-width: 1025px) {
+        .animation-wrapper-container.animation-unique-tEiroVbB {position:relative;margin-left:-100px;}
+        }
+        @media only screen and (min-width: 641px) and (max-width: 1024px) {.animation-wrapper-container.animation-unique-tEiroVbB {position:relative;margin-left:unset;}}
+        @media only screen and (max-width: 640px) {.animation-wrapper-container.animation-unique-tEiroVbB {position:relative;margin-left:unset;}}
+        
+    </style>
+<div class="animation-wrapper-container  animation-unique-tEiroVbB" data-rellax-speed="0">
+<div class="main clearfix">
+<div class="clearfix"><div class="image section">
+<a href="#stay-home" class=" fancybox" target="_self">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_170142/parsys/columns/column-parsys-2/animation_wrapper/parsys/image/image-res.img.29860775-617f-4dfd-acbc-8ff9dca7bf3f.jpg" alt="Our response to COVID-19 A message from Pluralsight CEO Aaron Skonnard" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--super-wide">
+<div class="large-12 columns "><div class="spacer section">
+<div class="spacer  " style="height:100px"></div>
+</div>
+<div class="free-form-component section">
+<style>
+  .block_alt_hero  .flex-block-container .image img {border-radius: 20px;}
+
+@media only screen and (min-width: 1025px) {
+.block_alt_hero .flex-block-container.desktop-three > .section {width: 30%;}
+}
+</style>
+</div>
+<div class="flex-block section">
+<div class="flex-block-container flex-section   desktop-three tablet-three mobile-one "><div class="flex-open-block section">
+<div class="flex-open-block-wrapper lazy-bg block--transparent block--left    clearfix">
+<div class="main clearfix"><div class="image section">
+<a href="/offer/2020/free-april-month" target="_self">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_170142/parsys/columns_copy_copy/column-parsys-1/flex_block_copy/parsys/flex_open_block/parsys/image_copy/image-res.img.40de812f-1def-4066-a016-1b41470d4edb.jpg" alt="Free April Month" />
+</a>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--pink         ">
+For Individuals
+</h6>
+</div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h5 class="  mobile-font-size-7 tablet-font-size-7 desk-font-size-7    title--heavier disableBottomMargin">
+Take control of your career with 7,000+ free video courses and more during the month of April.
+</h5>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="link section">
+<div>
+<a href="/offer/2020/free-april-month" data-aa-title="default-cta" class="simple_arrow     " target="_self">
+Start now
+</a>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-small-only" style="height:50px"></div></div>
+</div>
+</div>
+</div>
+<div class="flex-open-block section">
+<div class="flex-open-block-wrapper lazy-bg block--transparent block--left    clearfix">
+<div class="main clearfix"><div class="image section">
+<a href="/offer/2020/free-april-business" target="_self">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_170142/parsys/columns_copy_copy/column-parsys-1/flex_block_copy/parsys/flex_open_block_copy/parsys/image/image-res.img.8cc1de82-4a0d-4dba-b64a-cbb36ed3f1e6.jpg" alt="Free April Business" />
+</a>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--pink         ">
+For Businesses
+</h6>
+</div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h5 class="  mobile-font-size-7 tablet-font-size-7 desk-font-size-7    title--heavier disableBottomMargin">
+Keep your team sharp, productive and engaged with a free 30-day team trial.
+</h5>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="link section">
+<div>
+<a href="/offer/2020/free-april-business" data-aa-title="default-cta" class="simple_arrow     " target="_self">
+Start now
+</a>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-small-only" style="height:50px"></div></div>
+</div>
+</div>
+</div>
+<div class="flex-open-block section">
+<div class="flex-open-block-wrapper lazy-bg block--transparent block--left    clearfix">
+<div class="main clearfix"><div class="image section">
+<a href="/offer/2020/free-april-psone" target="_self">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_170142/parsys/columns_copy_copy/column-parsys-1/flex_block_copy/parsys/flex_open_block_copy_1041088069/parsys/image/image-res.img.4b775cca-648d-4790-a27d-059c7f309f76.jpg" alt="Free April Pluralsight One" />
+</a>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--pink         ">
+For nonprofits, educators &amp; students
+</h6>
+</div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h5 class="  mobile-font-size-7 tablet-font-size-7 desk-font-size-7    title--heavier disableBottomMargin">
+Build critical skills to overcome new challenges with free access to video courses and more.
+</h5>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:30px"></div>
+</div>
+<div class="link section">
+<div>
+<a href="/offer/2020/free-april-psone" data-aa-title="default-cta" class="simple_arrow     " target="_self">
+Start now
+</a>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-small-only" style="height:50px"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div id="tsd-banner_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--custom-color block--center generic-block--auto  padding-top-zero padding-bottom-zero tsd-banner    clearfix" style="background: #21b8a3;">
+<div class="main clearfix">
+<div class="content clearfix"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:80px"></div>
+<div class="spacer show-for-medium-only" style="height:60px"></div>
+<div class="spacer show-for-small-only" style="height:60px"></div></div>
+<div class="free-form-component section">
+<style>
+  .free-april-promo-banner .button { margin-bottom: 0; }
+@media (min-width: 1025px) {
+   .tsd-banner .add-flex {
+      justify-content: center;
+      align-items: center;
+   }
+   .tsd-banner .large-4 { 
+      width: auto; 
+      margin: auto;
+   }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+   .tsd-banner .text-4  {
+      max-width: 80%;
+   }
+}
+
+</style>
+</div>
+<div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large  add-flex     column-control--super-wide">
+<div class="large-4 columns "><div class="generic-block section">
+<div class="generic-block-wrapper lazy-bg   block block--transparent block--left generic-block--auto generic-block--vertical-center padding-top-zero padding-bottom-zero     clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_196754/parsys/columns/column-parsys-1/generic_block/parsys/image/image-res.img.844a1c05-a8d8-4b4a-bb0f-073ad571d4b6.png" alt="#techskillsday" />
+</div>
+</div>
+<div class="placeholder clearfix" style="visibility:hidden"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_196754/parsys/columns/column-parsys-1/generic_block/parsys/image/image-res.img.844a1c05-a8d8-4b4a-bb0f-073ad571d4b6.png" alt="#techskillsday" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="large-4 columns "><div class="generic-block section">
+<div class="generic-block-wrapper lazy-bg   block block--transparent block--left generic-block--auto generic-block--vertical-center padding-top-zero padding-bottom-zero     clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:25px"></div>
+<div class="spacer show-for-small-only" style="height:25px"></div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h5 data-scribble-text="APRIL 23" data-scribble-color="black" data-scribble-type="under" class="  mobile-font-size-7 tablet-font-size-7 desk-font-size-7    title--heavier disableBottomMargin">
+JOIN US ON APRIL 23 FOR A LIVE, VIRTUAL EVENT WITH SOME OF THE MOST INFLUENTIAL NAMES IN TECH.
+</h5>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:25px"></div>
+<div class="spacer show-for-small-only" style="height:25px"></div></div>
+</div>
+<div class="placeholder clearfix" style="visibility:hidden"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:25px"></div>
+<div class="spacer show-for-small-only" style="height:25px"></div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h5 data-scribble-text="APRIL 23" data-scribble-color="black" data-scribble-type="under" class="  mobile-font-size-7 tablet-font-size-7 desk-font-size-7    title--heavier disableBottomMargin">
+JOIN US ON APRIL 23 FOR A LIVE, VIRTUAL EVENT WITH SOME OF THE MOST INFLUENTIAL NAMES IN TECH.
+</h5>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:25px"></div>
+<div class="spacer show-for-small-only" style="height:25px"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="large-4 columns "><div class="generic-block section">
+<div class="generic-block-wrapper lazy-bg   block block--transparent block--left generic-block--auto generic-block--vertical-center padding-top-zero padding-bottom-zero     clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:10px"></div>
+<div class="spacer show-for-small-only" style="height:10px"></div></div>
+<div class="image section">
+<a href="https://www.pluralsight.com/techskillsday" target="_self">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_196754/parsys/columns/column-parsys-3/generic_block_copy/parsys/image/image-res.img.a3c19c15-472d-4626-b9f0-cd2a3f0ae370.png" alt="get a reminder" />
+</a>
+</div>
+</div>
+<div class="placeholder clearfix" style="visibility:hidden"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:10px"></div>
+<div class="spacer show-for-small-only" style="height:10px"></div></div>
+<div class="image section">
+<a href="https://www.pluralsight.com/techskillsday" target="_self">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_196754/parsys/columns/column-parsys-3/generic_block_copy/parsys/image/image-res.img.a3c19c15-472d-4626-b9f0-cd2a3f0ae370.png" alt="get a reminder" />
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:80px"></div>
+<div class="spacer show-for-medium-only" style="height:60px"></div>
+<div class="spacer show-for-small-only" style="height:60px"></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div id="block_live_hero hide_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--custom-color block--left generic-block--auto  padding-top-zero padding-bottom-zero block_live_hero hide    clearfix" style="background: #ec008c;">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large     padding-top-forty padding-bottom-twenty column-control--super-wide">
+<div class="large-7 columns "><div class="layout-block section">
+<div>
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+<div class="animation-wrapper aem-GridColumn aem-GridColumn--default--12">
+<style type="text/css">
+        
+        .animation-wrapper-container.animation-unique-NlFgbiRi {position:relative;margin-top:-20px;margin-left:-20px;}
+        
+    </style>
+<div class="animation-wrapper-container  animation-unique-NlFgbiRi" data-rellax-speed="0">
+<div class="main clearfix">
+<div class="clearfix"><div class="generic-block section">
+<div id="hide-for-medium-down_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--transparent block--left generic-block--auto  padding-top-zero padding-bottom-zero hide-for-medium-down    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/dam/pluralsight2/events/live-eu-2020/liveeu-lockup.png" alt="PS LIVE Europe Virtual Conference" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block aem-GridColumn aem-GridColumn--default--12">
+<div id="show-for-small-up hide-for-large-up_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--transparent block--left generic-block--auto  padding-top-zero padding-bottom-zero show-for-small-up hide-for-large-up    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/dam/pluralsight2/events/live-eu-2020/liveeu-lockup-responsiveness.png" alt="PS LIVE Europe Virtual Conference" class="image--center " />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div>
+<div class="large-5 columns "><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:20px"></div>
+<div class="spacer show-for-medium-only" style="height:20px"></div>
+<div class="spacer show-for-small-only" style="height:20px"></div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h3 data-scribble-text="FREE" data-scribble-color="black" data-scribble-type="under" class="     title--right titleTablet--center titleMobile--center title--ultra disableBottomMargin">
+FREE VIRTUAL EVENT
+</h3>
+</div></div>
+<div class="generic-block section">
+<div id="footer-ctas_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--transparent block--left generic-block--auto generic-block--vertical-center padding-top-zero padding-bottom-zero footer-ctas    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="spacer section">
+<div class="spacer  " style="height:10px"></div>
+</div>
+<div class="free-form-component section">
+<style>
+  .footer-ctas button, .footer-ctas .button { margin-bottom: 0; }
+
+@media (min-width: 1025px) {
+.footer-ctas .content { display: flex; justify-content: flex-end; }
+}
+@media (max-width: 1024px) {
+.footer-ctas button, .footer-ctas .button.button--gradient { margin-bottom: 15px; }
+}
+</style>
+</div>
+<div class="ps-button section">
+<div data-emptytext="Button" class="psbutton--center">
+<div>
+<a href="https://www.pluralsight.com/paths/pluralsight-live-europe-2020" target="_self" style=" min-width:200px;" class="button  button--black button--large  " data-aa-title="live-banner-watch-now">
+Watch Now
+</a>
+</div>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:20px"></div>
+<div class="spacer show-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-small-only" style="height:0px"></div></div>
+</div>
+<div class="placeholder clearfix" style="visibility:hidden"><div class="spacer section">
+<div class="spacer  " style="height:10px"></div>
+</div>
+<div class="free-form-component section">
+<style>
+  .footer-ctas button, .footer-ctas .button { margin-bottom: 0; }
+
+@media (min-width: 1025px) {
+.footer-ctas .content { display: flex; justify-content: flex-end; }
+}
+@media (max-width: 1024px) {
+.footer-ctas button, .footer-ctas .button.button--gradient { margin-bottom: 15px; }
+}
+</style>
+</div>
+<div class="ps-button section">
+<div data-emptytext="Button" class="psbutton--center">
+<div>
+<a href="https://www.pluralsight.com/paths/pluralsight-live-europe-2020" target="_self" style=" min-width:200px;" class="button  button--black button--large  " data-aa-title="live-banner-watch-now">
+Watch Now
+</a>
+</div>
+</div></div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:20px"></div>
+<div class="spacer show-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-small-only" style="height:0px"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:10px"></div>
+<div class="spacer show-for-small-only" style="height:10px"></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div class="generic-block-wrapper lazy-bg   block block--black block--left generic-block--auto  padding-top-hundred padding-bottom-hundred     clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large  add-flex     column-control--super-wide">
+<div class="large-5 columns large-push-7 "><div class="spacer section">
+<div class="spacer  " style="height:50px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--pink         ">
+trending technologies
+</h6>
+</div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h3 data-scribble-text="topics" data-scribble-color="yellow" data-scribble-type="under" class="        title--ultra ">
+Popular topics <br class="hide-for-medium-down" />to learn now
+</h3>
+</div></div>
+<div class="text-4 text section">
+<div class="cmp-text">
+<p>Not sure what technologies to focus on? The Technology Index ranks 850+ technologies by their relative popularity. See what’s topping the charts and get recommended courses to skill up. </p>
+</div>
+</div>
+<div class="link section">
+<div>
+<a href="/tech-index" data-aa-title="trending-tech-index" class="simple_arrow     " target="_self">
+View the index
+</a>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:50px"></div>
+</div>
+</div>
+<div class="large-7 columns large-pull-5 "><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--super-wide">
+<div class="large-12 columns "><div class="free-form-component section">
+<style>
+    .paths-block {display: flex; flex-wrap: wrap;}
+    .paths-items {
+         padding: 20px;
+         flex-basis: 50%;
+         flex-grow: 1;
+    }
+    .path-items-container {display: flex; padding: 20px 30px;background: #222222;box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1); min-height: 165px;}
+    .path-items-container a {position: relative; text-decoration: none; display: flex; flex-direction: column; flex-grow: 1;}
+    .path-icon {
+        position: absolute;
+        top: -44px;
+        right: -54px;
+        width: 100px;
+    }
+    .path-title {color: white; font-size: 16px; line-height: 19px;}
+    .path-label {margin-bottom: 5px; font-weight: 500; font-size: 12px;}
+    .path-courses {font-size: 14px; font-weight: 500; line-height: 20px; color: #aaaaaa;}
+    .path-courses span {color: white; font-weight: 500;}
+    .path-link {margin-top: auto; font-size: 16px; font-weight: 700; line-height: 36px; color: white;}
+    .simple-arrow:after {
+        content: "\f105";
+        margin-left: 4px;
+        font-family: FontAwesome;
+        color: #EC008C;
+        transition: 0.3s all;
+    }
+    .path-items-container a:hover .simple-arrow:after {margin-left: 8px;}
+
+    @media only screen and (max-width: 575px) {
+        .paths-items {
+            flex-basis:100%;
+            padding-top: 10px;
+            padding-left: 0;
+            padding-right: 0;
+       }
+    }
+    @media only screen and (min-width: 1025px) {
+        .paths-block {margin-left: -20px; margin-right: -20px; }
+    }
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+       .paths-block {display: -ms-flexbox;}
+       .paths-items {-ms-flex: 1 0 40%;}
+}
+@media all and (max-width: 575px) and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+       .paths-items {-ms-flex: 1 0 100%;}
+}
+</style>
+<div class="paths-block">
+<div class="paths-items">
+<div class="path-items-container"><a href="https://www.pluralsight.com/paths/javascript-core-language">
+<img class="path-icon" src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png" alt="JavaScript Path" />
+<div class="path-label">Path</div>
+<div class="path-title">JavaScript</div>
+<div class="path-courses"><span>11</span> Courses</div>
+<div class="path-link simple-arrow">Take a look</div>
+</a>
+</div>
+</div>
+<div class="paths-items">
+<div class="path-items-container"><a href="https://www.pluralsight.com/paths/angular-js">
+<img class="path-icon" src="https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png" alt="Angular Path" />
+<div class="path-label">Path</div>
+<div class="path-title">Angular</div>
+<div class="path-courses"><span>14</span> Courses</div>
+<div class="path-link simple-arrow">Take a look</div>
+</a>
+</div>
+</div>
+<div class="paths-items">
+<div class="path-items-container"><a href="https://www.pluralsight.com/paths/python">
+<img class="path-icon" src="https://pluralsight.imgix.net/paths/python-7be70baaac.png" alt="Python Path" />
+<div class="path-label">Path</div>
+<div class="path-title">Python</div>
+<div class="path-courses"><span>12</span> Courses</div>
+<div class="path-link simple-arrow">Take a look</div>
+</a>
+</div>
+</div>
+<div class="paths-items">
+<div class="path-items-container"><a href="https://www.pluralsight.com/paths/csharp">
+<img class="path-icon" src="https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png?" alt="CSharp Path" />
+<div class="path-label">Path</div>
+<div class="path-title">C#</div>
+<div class="path-courses"><span>19</span> Courses</div>
+<div class="path-link simple-arrow">Take a look</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div id="discover_ps_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--true-black block--left generic-block--auto  padding-top-hundred padding-bottom-fifty discover_ps    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--super-wide">
+<div class="large-12 columns "><div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--pink         ">
+Keep up to date
+</h6>
+</div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h3 class="        title--ultra ">
+Discover more about Pluralsight
+</h3>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:15px"></div>
+</div>
+<div class="free-form-component section">
+<style>
+  .discover_ps .flex-block-container .image img {border-radius: 20px;}
+
+@media only screen and (min-width: 1025px) {
+.discover_ps .your_free_month .flex-block-container.desktop-three > .section {width: 30%;}
+}
+</style>
+</div>
+<div class="flex-block section">
+<div class="flex-block-container flex-section   desktop-three tablet-three mobile-one "><div class="flex-open-block section">
+<a href="/product/skill-iq">
+<div class="flex-open-block-wrapper lazy-bg block--transparent block--left    clearfix">
+<div class="main clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_135160/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block/parsys/image/image-res.img.4309d3de-ca2e-4ae0-a3d6-b643efffec3d.jpg" alt="Skill IQ" />
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--yellow         disableBottomMargin">
+Pluralsight Skill IQ
+</h6>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+<div class="text-4 text section">
+<div class="cmp-text">
+<p><span class="tc-white">Don't just guess where your skills stand - prove it with Pluralsight Skill IQ</span></p>
+</div>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="flex-open-block section">
+<a href="https://www.pluralsight.com/resource-center/guides/recruit_vs_retain/thank_you">
+<div class="flex-open-block-wrapper lazy-bg block--transparent block--left    clearfix">
+<div class="main clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_135160/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block_copy/parsys/image/image-res.img.b1ecbd44-70cb-4230-b38f-726971323b55.jpg" alt="White paper" />
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--yellow         disableBottomMargin">
+White Paper
+</h6>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+<div class="text-4 text section">
+<div class="cmp-text">
+<p><span class="tc-white">5 proven ways to motivate and retain your technology employees</span></p>
+</div>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="flex-open-block section">
+<a href="https://www.pluralsight.com/blog/teams/cio-role-in-2025">
+<div class="flex-open-block-wrapper lazy-bg block--transparent block--left    clearfix">
+<div class="main clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_135160/parsys/columns/column-parsys-1/flex_block/parsys/flex_open_block_copy_1041088069/parsys/image/image-res.img.2546f6c6-68bf-4a0e-b370-abdcea249db5.jpg" alt="Article" />
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--yellow         disableBottomMargin">
+Article
+</h6>
+</div></div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+<div class="text-4 text section">
+<div class="cmp-text">
+<p><span class="tc-white"><span class="remove-bottom-margin">3 ways the CIO role will look different in 2025</span></span></p>
+</div>
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:20px"></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div id="block_cloudhealth fully-contained-right_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--dark-gray-2 block--left generic-block--auto  padding-top-zero padding-bottom-zero block_cloudhealth fully-contained-right    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="spacer section">
+<div class="spacer hide-for-small-only hide-for-medium-only" style="height:0px"></div>
+<div class="spacer show-for-medium-only" style="height:15px"></div>
+<div class="spacer show-for-small-only" style="height:15px"></div></div>
+<div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large  add-flex     fullwidth">
+<div class="large-7 columns customPadding" style="padding-left: 0px; padding-right: 0px;"><div class="generic-block section">
+<div class="generic-block-wrapper lazy-bg   block block--black block--left generic-block--auto generic-block--vertical-center padding-top-hundred padding-bottom-hundred     clearfix" style="background-image: url('/content/pluralsight/en/jcr:content/main/generic_block_143764/parsys/columns/column-parsys-1/generic_block/image-res.img.11290676-889c-4033-8885-1394d7e79cc8.jpg');background-position:center center;background-size:cover;background-repeat:no-repeat;">
+<div class="main clearfix">
+<div class="content clearfix"><div class="spacer section">
+<div class="spacer  hide-for-medium-only" style="height:300px"></div>
+<div class="spacer show-for-medium-only" style="height:550px"></div>
+</div>
+</div>
+<div class="placeholder clearfix" style="visibility:hidden"><div class="spacer section">
+<div class="spacer  hide-for-medium-only" style="height:300px"></div>
+<div class="spacer show-for-medium-only" style="height:550px"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="large-5 columns customPadding" style="padding-left: 0px; padding-right: 0px;"><div class="generic-block section">
+<div id="full-width-padded_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--custom-color block--left   padding-top-hundred padding-bottom-hundred full-width-padded    clearfix" style="background: linear-gradient(100.37deg, #EC008B 0%, #F15A22 100%);">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--narrow">
+<div class="large-12 columns customPadding" style="padding-left: 100px; padding-right: 100px;"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_143764/parsys/columns/column-parsys-2/generic_block/parsys/column_control/column-parsys-1/image/image-res.img.924e49c3-e7e8-456d-bd64-6b8fa276c35b.png" alt="1800contacts logo" />
+</div>
+<div class="spacer section">
+<div class="spacer  " style="height:15px"></div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h4 class="  mobile-font-size-4 tablet-font-size-4 desk-font-size-4    title--ultra ">
+UPSKILLING TO <br class="hide-for-medium-down" /> DISRUPT <br class="hide-for-medium-down" />VISION CARE
+</h4>
+</div></div>
+<div class="text-4 text section">
+<div class="cmp-text">
+<p><span class="tc-white">See how Pluralsight has helped 1-800 Contacts lead vision care innovation amidst a tech talent shortage.</span></p>
+</div>
+</div>
+<div class="ps-button section">
+<div data-emptytext="Button">
+<div>
+<a href="/customer-stories/business/1-800-contacts" target="_self" class="button  button--black 11  " data-aa-title="How-They&#39;re-Skilling-Up">
+How they&#39;re skilling up
+</a>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div class="generic-block-wrapper lazy-bg   block block--true-black block--left generic-block--auto  padding-top-hundred padding-bottom-hundred     clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--super-wide">
+<div class="large-12 columns "><div class="title2 section">
+<div data-emptytext="Title">
+<h6 class="title--pink     title--center    ">
+Follow us
+</h6>
+</div></div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h3 class="     title--center   title--ultra disableBottomMargin">
+Share your skills <br /> #freeapril
+</h3>
+</div></div>
+<div class="twitter-feed section">
+<div class="tl-wrapper">
+<div>
+<script src="/etc/clientlibs/pluralsight/main/js/separates/slick.min.js"></script>
+<div>
+<div data-emptytext="Title">
+</div></div>
+<div class="tl-wrapper-inner">
+<div class="tl-tweets">
+<div class="tl-tweets__tweet">
+<div class="tl-tweet-author">
+<div class="tl-tweet-author-content clearfix">
+<a target="_blank" href="https://twitter.com/iamkielicious" class="tl-tweet-authorScreenName">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pbs.twimg.com/profile_images/1238430455981957120/oYQee7BN_bigger.jpg">
+</a>
+<div class="tl-tweet-author-user">
+<a target="_blank" href="https://twitter.com/iamkielicious" class="tl-tweet-authorName">Kiel</a>
+<a target="_blank" href="https://twitter.com/iamkielicious" class="tl-tweet-authorScreenName">@iamkielicious</a>
+</div>
+<a target="_blank" class="tl-download lazy-bg" href="https://twitter.com/download"></a>
+</div>
+</div>
+<div class="tl-tweet-body">I just finished <a target="_blank" href="https://www.twitter.com/rseroter">@rseroter</a>’s <a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a> course “DevOps: The Big Picture”. I haven’t been exposed to DevOps as much as I wanted to, and I am about to join a company who is making the transition to DevOps. His course is a perfect starter! Thank you! <a target="_blank" href="https://www.twitter.com/hashtag/FreeApril?src=hash">#FreeApril</a></div>
+
+<ul class="tweet-buttons">
+<li>
+<a target="_blank" class="tl-reply" href="https://twitter.com/intent/tweet?in_reply_to=1247233205523996675">
+<div class="tl-icon lazy-bg" title="Reply"></div>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-retweet" href="https://twitter.com/intent/retweet?tweet_id=1247233205523996675">
+<div class="tl-icon lazy-bg" title="ReTweet"></div>
+<span>2 </span>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-favorite" href="https://twitter.com/intent/favorite?tweet_id=1247233205523996675">
+<div class="tl-icon lazy-bg" title="Favorite"></div>
+</a>
+</li>
+</ul>
+</div>
+<div class="tl-tweets__tweet">
+<div class="tl-tweet-author">
+<div class="tl-tweet-author-content clearfix">
+<a target="_blank" href="https://twitter.com/kirk__ryan" class="tl-tweet-authorScreenName">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pbs.twimg.com/profile_images/1190827370162376704/GH0xrVlm_bigger.jpg">
+</a>
+<div class="tl-tweet-author-user">
+<a target="_blank" href="https://twitter.com/kirk__ryan" class="tl-tweet-authorName">🅺🅸🆁🅺 🆁🆈🅰🅽 -Happy Easter 🐰</a>
+<a target="_blank" href="https://twitter.com/kirk__ryan" class="tl-tweet-authorScreenName">@kirk__ryan</a>
+</div>
+<a target="_blank" class="tl-download lazy-bg" href="https://twitter.com/download"></a>
+</div>
+</div>
+<div class="tl-tweet-body">So, with <a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a> going free for the month I decided to give it a go, and wow. The course quality is astounding. It also led me to my first time watching an <a target="_blank" href="https://www.twitter.com/nigelpoulton">@nigelpoulton</a> course and I'll be watching my way through his remaining K8s and Docker courses end to end! <a target="_blank" href="https://t.co/JuHw1xElU3">https://t.co/JuHw1xElU3</a></div>
+
+<ul class="tweet-buttons">
+<li>
+<a target="_blank" class="tl-reply" href="https://twitter.com/intent/tweet?in_reply_to=1247073578866089987">
+<div class="tl-icon lazy-bg" title="Reply"></div>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-retweet" href="https://twitter.com/intent/retweet?tweet_id=1247073578866089987">
+<div class="tl-icon lazy-bg" title="ReTweet"></div>
+<span>11 </span>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-favorite" href="https://twitter.com/intent/favorite?tweet_id=1247073578866089987">
+<div class="tl-icon lazy-bg" title="Favorite"></div>
+</a>
+</li>
+</ul>
+</div>
+<div class="tl-tweets__tweet">
+<div class="tl-tweet-author">
+<div class="tl-tweet-author-content clearfix">
+<a target="_blank" href="https://twitter.com/radzima" class="tl-tweet-authorScreenName">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pbs.twimg.com/profile_images/1007828094869106688/oR4Dhj0l_bigger.jpg">
+</a>
+<div class="tl-tweet-author-user">
+<a target="_blank" href="https://twitter.com/radzima" class="tl-tweet-authorName">Ryan M. Adzima</a>
+<a target="_blank" href="https://twitter.com/radzima" class="tl-tweet-authorScreenName">@radzima</a>
+</div>
+<a target="_blank" class="tl-download lazy-bg" href="https://twitter.com/download"></a>
+</div>
+</div>
+<div class="tl-tweet-body">Thing 2 is expanding his python foundation thanks to <a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a>, great content even for an 11 year old. <a target="_blank" href="https://t.co/mvuY5Rz12D">https://t.co/mvuY5Rz12D</a></div>
+
+<ul class="tweet-buttons">
+<li>
+<a target="_blank" class="tl-reply" href="https://twitter.com/intent/tweet?in_reply_to=1246854892368478208">
+<div class="tl-icon lazy-bg" title="Reply"></div>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-retweet" href="https://twitter.com/intent/retweet?tweet_id=1246854892368478208">
+<div class="tl-icon lazy-bg" title="ReTweet"></div>
+<span>1 </span>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-favorite" href="https://twitter.com/intent/favorite?tweet_id=1246854892368478208">
+<div class="tl-icon lazy-bg" title="Favorite"></div>
+</a>
+</li>
+</ul>
+</div>
+<div class="tl-tweets__tweet">
+<div class="tl-tweet-author">
+<div class="tl-tweet-author-content clearfix">
+<a target="_blank" href="https://twitter.com/nonZieen" class="tl-tweet-authorScreenName">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pbs.twimg.com/profile_images/1231591180409999360/OKRlB8B4_bigger.jpg">
+</a>
+<div class="tl-tweet-author-user">
+<a target="_blank" href="https://twitter.com/nonZieen" class="tl-tweet-authorName">Nwanukposi_Nonso</a>
+<a target="_blank" href="https://twitter.com/nonZieen" class="tl-tweet-authorScreenName">@nonZieen</a>
+</div>
+<a target="_blank" class="tl-download lazy-bg" href="https://twitter.com/download"></a>
+</div>
+</div>
+<div class="tl-tweet-body"><a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a> I lack works to say thank you..
+I just set up my account &amp; about downloading my 1st course in less than 30 minutes.
+You don't know what this means to me, I'm really grateful to the entire staff &amp; leadership of <a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a>. I'll spread the link.
+From Nigeria, we say thank you.</div>
+
+<ul class="tweet-buttons">
+ <li>
+<a target="_blank" class="tl-reply" href="https://twitter.com/intent/tweet?in_reply_to=1246857000627113984">
+<div class="tl-icon lazy-bg" title="Reply"></div>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-retweet" href="https://twitter.com/intent/retweet?tweet_id=1246857000627113984">
+<div class="tl-icon lazy-bg" title="ReTweet"></div>
+<span>1 </span>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-favorite" href="https://twitter.com/intent/favorite?tweet_id=1246857000627113984">
+<div class="tl-icon lazy-bg" title="Favorite"></div>
+</a>
+</li>
+</ul>
+</div>
+<div class="tl-tweets__tweet">
+<div class="tl-tweet-author">
+<div class="tl-tweet-author-content clearfix">
+<a target="_blank" href="https://twitter.com/lbojim" class="tl-tweet-authorScreenName">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pbs.twimg.com/profile_images/1479143374/profile_bigger.JPG">
+</a>
+<div class="tl-tweet-author-user">
+<a target="_blank" href="https://twitter.com/lbojim" class="tl-tweet-authorName">Jim Carr</a>
+<a target="_blank" href="https://twitter.com/lbojim" class="tl-tweet-authorScreenName">@lbojim</a>
+</div>
+<a target="_blank" class="tl-download lazy-bg" href="https://twitter.com/download"></a>
+</div>
+</div>
+<div class="tl-tweet-body">New things I've done during <a target="_blank" href="https://www.twitter.com/hashtag/QuarantineLife?src=hash">#QuarantineLife</a> Wrote my first Python app. <a target="_blank" href="https://www.twitter.com/ThePSF">@ThePSF</a> ✔️ Thanks <a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a> <a target="_blank" href="https://t.co/JaeMGsUB4G">https://t.co/JaeMGsUB4G</a></div>
+
+<ul class="tweet-buttons">
+<li>
+<a target="_blank" class="tl-reply" href="https://twitter.com/intent/tweet?in_reply_to=1246536131245719553">
+<div class="tl-icon lazy-bg" title="Reply"></div>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-retweet" href="https://twitter.com/intent/retweet?tweet_id=1246536131245719553">
+<div class="tl-icon lazy-bg" title="ReTweet"></div>
+<span>3 </span>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-favorite" href="https://twitter.com/intent/favorite?tweet_id=1246536131245719553">
+<div class="tl-icon lazy-bg" title="Favorite"></div>
+</a>
+</li>
+</ul>
+</div>
+<div class="tl-tweets__tweet">
+<div class="tl-tweet-author">
+ <div class="tl-tweet-author-content clearfix">
+<a target="_blank" href="https://twitter.com/JosephNduhiu" class="tl-tweet-authorScreenName">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="https://pbs.twimg.com/profile_images/636858321039945728/3-oA8xvd_bigger.jpg">
+</a>
+<div class="tl-tweet-author-user">
+<a target="_blank" href="https://twitter.com/JosephNduhiu" class="tl-tweet-authorName">Joseph Nduhiu</a>
+<a target="_blank" href="https://twitter.com/JosephNduhiu" class="tl-tweet-authorScreenName">@JosephNduhiu</a>
+</div>
+<a target="_blank" class="tl-download lazy-bg" href="https://twitter.com/download"></a>
+</div>
+</div>
+<div class="tl-tweet-body">Wow!! I will binge on <a target="_blank" href="https://www.twitter.com/pluralsight">@pluralsight</a> to the max!! Who needs Netflix when you can grow your skills for free? 👏🏾👏🏾👏🏾 <a target="_blank" href="https://t.co/9pKpi0NfVl">https://t.co/9pKpi0NfVl</a></div>
+
+<ul class="tweet-buttons">
+<li>
+<a target="_blank" class="tl-reply" href="https://twitter.com/intent/tweet?in_reply_to=1246185446188683265">
+<div class="tl-icon lazy-bg" title="Reply"></div>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-retweet" href="https://twitter.com/intent/retweet?tweet_id=1246185446188683265">
+<div class="tl-icon lazy-bg" title="ReTweet"></div>
+<span>3 </span>
+</a>
+</li>
+<li>
+<a target="_blank" class="tl-favorite" href="https://twitter.com/intent/favorite?tweet_id=1246185446188683265">
+<div class="tl-icon lazy-bg" title="Favorite"></div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="tl-arrows"></div>
+</div>
+<div class="tl-wrapper-inner-btm">
+</div>
+</div>
+<input type="hidden" name="tl-autoplay-option" class="tl-autoplay-option">
+</div>
+<script>
+    var $component = jQuery(".twitter-feed");
+    var autoplayTweet = $component.find('.tl-autoplay-option').val().toLowerCase() === 'true' ? true : false;
+    twitterload();
+
+    function twitterload(){
+        var slick = jQuery('.tl-tweets').slick({
+            appendArrows  : jQuery('.tl-arrows'),
+            slidesToShow  : 3,
+            slidesToScroll: 3,
+            speed: 300,
+            autoplay: autoplayTweet,
+            autoplaySpeed: 3000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true
+                    }
+                },{
+                    breakpoint: 860,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true
+                    }
+                },{
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                }
+            ]
+        });
+    }
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div id="ps-one-banner_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--black block--left generic-block--auto  padding-top-hundred padding-bottom-hundred ps-one-banner    clearfix" style="background-image: url('/content/pluralsight/en/jcr:content/main/generic_block_1609496607/image-res.img.ba6c8f2b-0755-4b57-b5ab-2c51f65cc729.jpg');background-position:right center;background-size:cover;background-repeat:no-repeat;">
+<div class="main clearfix">
+<div class="content clearfix"><div class="free-form-component section">
+<style>
+  @media (max-width: 991px) {
+
+.ps-one-banner:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ps-one-banner { background-position: 70% center !important; }
+
+}
+</style>
+</div>
+<div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large       column-control--super-wide">
+<div class="large-6 columns "><div class="animation-wrapper section">
+<style type="text/css">
+        
+        .animation-wrapper-container.animation-unique-przNgbhk {position:relative;margin-top:-40px;margin-left:-40px;}
+        
+    </style>
+<div class="animation-wrapper-container  animation-unique-przNgbhk" data-rellax-speed="0">
+<div class="main clearfix">
+<div class="clearfix"><div class="image section">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/content/pluralsight/en/jcr:content/main/generic_block_1609496607/parsys/columns/column-parsys-1/animation_wrapper/parsys/image/image-res.img.3b9fe45f-d40e-4c8a-bfc7-b362479e4a8d.png" alt="Pluralsight One Logo" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="title2 section">
+<div data-emptytext="Title">
+<h2 data-scribble-text="better" data-scribble-color="skills" data-scribble-type="under" class="        title--ultra ">
+See our growth, <br class="hide-for-large" />progress and evolution
+</h2>
+</div></div>
+<div class="text-4 text section">
+<div class="cmp-text">
+<p>At Pluralsight, we see first-hand every day how technology makes the impossible, possible. It’s why Pluralsight One exists: To advance our mission of democratizing technology skills, challenging assumptions about solutions and create significant, lasting social impact.</p>
+</div>
+</div>
+<div class="ps-button section">
+<div data-emptytext="Button">
+<div>
+<a href="https://www.pluralsightone.org/impact/impact-book#page/1" target="_self" class="button button-float-left button--gradient 12  " data-aa-title="psone-impact-book">
+View our 2019 impact book
+</a>
+</div>
+</div></div>
+<div class="ps-button section">
+<div data-emptytext="Button">
+<div>
+<a href="https://www.pluralsightone.org/product/nonprofit#products" target="_blank" class="button  button--secondary--white 11  " data-aa-title="psone-nonprofit">
+for nonprofits
+</a>
+</div>
+</div></div>
+</div>
+<div class="large-6 columns ">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-block section">
+<div id="footer-cta_" class="hidden"></div>
+<div class="generic-block-wrapper lazy-bg   block block--black block--left generic-block--auto  padding-top-hundred padding-bottom-hundred footer-cta    clearfix">
+<div class="main clearfix">
+<div class="content clearfix"><div class="column-control section">
+<div>
+<div class="container column-control-container ">
+<div class="row large  add-flex     column-control--super-wide">
+<div class="large-8 columns "><div class="title2 section">
+<div data-emptytext="Title">
+<h2 data-scribble-text="Skill" data-scribble-color="skills" data-scribble-type="under" class="     title--left titleTablet--center titleMobile--center title--ultra disableBottomMargin">
+Stay home <br />Skill up
+</h2>
+</div></div>
+</div>
+<div class="large-4 columns "><div class="spacer section">
+<div class="spacer  " style="height:25px"></div>
+</div>
+<div class="free-form-component section">
+<style>
+  @media (max-width: 1024px) {
+   .footer-cta .large-4 .psbutton--right {
+      text-align: center !important;
+   }
+}
+</style>
+</div>
+<div class="ps-button section">
+<div data-emptytext="Button" class="psbutton--right">
+<div>
+<a href="/offer/2020/free-april-month" target="_self" style=" min-width:260px;" class="button  button--gradient button--large  " data-aa-title="Start-For-Free-Foot">
+Start for free
+</a>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="generic-modal section">
+<div id="stay-home" class="main modal-wrapper clearfix">
+<div class="clearfix"><div class="video parbase section">
+<div class="video-component video-show-button black-white-play-btn ">
+<div>
+<div data-vid-comp-id="GElg0W5Osl8" class="video-comp-yt-api-vid"></div>
+</div>
+</div></div>
+</div>
+<input type="hidden" name="modal-override-width" class="modal-override-width">
+</div></div>
+</div>
+</div>
+
+<div id="ps_pro_qty_modal">
+<div class="column-control section">
+<div class="container column-control-container ">
+<div class="row column-control--wide">
+<div class="large-5 columns column_qty large-push-7">
+<h3>Ready to skill up<br>your entire team?</h3>
+<div class="qty-selector">
+<div class="qty-down"><i class="icons" icon="down-arrow"></i></div>
+<div class="qty-display">
+<div class="qty-display-number">10</div>
+<div class="qty-display-label">Licenses</div>
+</div>
+<div class="qty-up"><i class="icons" icon="up-arrow"></i></div>
+</div>
+<div class="qty-sales-message hidden">Need more licenses? <a href="/product/contact-sales">Contact sales</a>.</div>
+<a class="button button--gradient button--small biz_qty_checkout pilot-hide" data-aa-title="pro-qty-modal-signup" href="https://www.pluralsight.com/buy?sku=PROFESSIONAL-SG&quantity=10">Continue to checkout</a>
+<a class="button button--gradient button--small biz_qty_checkout pilot-show" data-aa-title="pro-qty-modal-trial" href="https://www.pluralsight.com/buy?sku=PROFESSIONAL-SG-PILOT&quantity=10">Continue to checkout</a>
+<div class="ps_pro_qty_modal-cancel">Cancel</div>
+</div>
+<div class="large-7 columns column_feature large-pull-5">
+<h3 class="pilot-hide">With your Pluralsight plan, you can:</h3>
+<h3 class="pilot-show">With your 14-day pilot, you can:</h3>
+<ul>
+<li class="pilot-hide">Access thousands of videos to develop critical skills</li>
+<li class="pilot-show">Give up to 10 users access to thousands of video courses</li>
+<li>Practice and apply skills with interactive courses and projects</li>
+<li>See skills, usage, and trend data for your teams</li>
+<li>Prepare for certifications with industry-leading practice exams</li>
+<li>Measure proficiency across skills and roles</li>
+<li>Align learning to your goals with paths and channels</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<noindex>
+<footer id="ftr">
+<div class="ftr-row">
+<div class="ftr-container">
+<div class="ftr-cat-links-col">
+<div class="ftr-dd">╲╱</div>
+<div class="ftr-cat-header">Solutions</div>
+<div class="ftr-cat-links">
+<a href="/product/skills">Pluralsight Skills</a>
+<a href="/product/flow">Pluralsight Flow</a>
+<a href="/gift-of-pluralsight">Gift of Pluralsight</a>
+<a href="/pricing">View Pricing</a>
+<a href="/product/contact-sales">Contact Sales</a>
+</div>
+</div>
+<div class="ftr-cat-links-col">
+<div class="ftr-dd">╲╱</div>
+<div class="ftr-cat-header">Platform</div>
+<div class="ftr-cat-links">
+<a href="/browse">Browse library</a>
+<a href="/product/role-iq">Role IQ</a>
+<a href="/product/skill-iq">Skill IQ</a>
+<a href="/product/iris">Iris</a>
+<a href="/authors">Authors</a>
+<a href="/product/professional-services">Professional Services</a>
+<a href="/tech-index">Technology Index</a>
+</div>
+</div>
+<div class="ftr-cat-links-col">
+<div class="ftr-dd">╲╱</div>
+<div class="ftr-cat-header">Company</div>
+<div class="ftr-cat-links">
+<a href="/about">About us</a>
+<a href="/customer-stories">Customer stories</a>
+<a href="https://investors.pluralsight.com">Investors</a>
+<a href="/careers">Careers</a>
+<a href="/blog">Blog</a>
+<a href="/newsroom">Newsroom</a>
+<a href="/resource-center">Resource center</a>
+<a href="https://www.pluralsight.com/guides">Guides</a>
+</div>
+</div>
+<div class="ftr-cat-links-col">
+<div class="ftr-dd">╲╱</div>
+<div class="ftr-cat-header">Resources</div>
+<div class="ftr-cat-links">
+<a href="/downloads">Download Pluralsight</a>
+<a href="/events">Events</a>
+<a href="/teach">Teach</a>
+<a href="/partners">Partners</a>
+<a href="/affiliate">Affiliate program</a>
+<a href="https://www.pluralsightone.org">PluralsightOne.org</a>
+<a href="/subscribe">Subscribe</a>
+</div>
+</div>
+<div class="ftr-cat-links-col">
+<div class="ftr-dd">╲╱</div>
+<div class="ftr-cat-header">Support</div>
+<div class="ftr-cat-links">
+<a href="/contact">Contact</a>
+<a href="http://help.pluralsight.com/help">Help center</a>
+<a href="https://help.pluralsight.com/help/ip-whitelist">IP whitelist</a>
+<a href="https://www.pluralsight.com/sitemap.xml">Sitemap</a>
+</div>
+</div>
+<div class="ftr-cat-links-col show-for-medium-only">
+<div class="ftr-cat-header">
+<a href="https://www.facebook.com/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/Facebook_Icon.svg" alt="Like on Facebook">
+</a>
+<a href="https://www.instagram.com/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/Instagram_Icon.svg" alt="Follow on Instagram">
+</a>
+<a href="https://www.twitter.com/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/Twitter_Icon.svg" alt="Follow on Twitter">
+</a>
+<a href="https://www.linkedin.com/company/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/LinkedIn_Icon.svg" alt="Connect on LinkedIn">
+</a>
+ <a href="https://www.youtube.com/user/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/YouTube_Icon.svg" alt="Follow us on YouTube">
+</a>
+</div>
+</div>
+<div class="ftr-cat-links-col ftr-col-last">
+<div class="ftr-btm ftr-copyright"><a href="/"><img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="//www.pluralsight.com/content/dam/pluralsight2/general/icons/light/ps-icon.png" alt="Pluralsight"></a><span class="ftr-copyright">Copyright &copy; 2004 - <span class="copyright-year"></span> Pluralsight LLC. All rights reserved</span></div>
+<div class="ftr-btm ftr-terms">
+<span>
+<a href="/terms">Terms of Use</a>
+</span>
+<span>
+<a href="/privacy">Privacy Policy</a>
+</span>
+<span class="hide-for-medium-only">
+<a href="https://www.facebook.com/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/Facebook_Icon.svg" alt="Like on Facebook">
+</a>
+<a href="https://www.instagram.com/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/Instagram_Icon.svg" alt="Follow on Instagram">
+</a>
+<a href="https://www.twitter.com/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/Twitter_Icon.svg" alt="Follow on Twitter">
+</a>
+<a href="https://www.linkedin.com/company/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/LinkedIn_Icon.svg" alt="Connect on LinkedIn">
+</a>
+<a href="https://www.youtube.com/user/pluralsight" class="share__link" target="_blank">
+<img src="/etc/clientlibs/pluralsight/main/images/px.png" data-lazysrc="/etc/clientlibs/pluralsight/main/images/icons/desktop/YouTube_Icon.svg" alt="Follow us on YouTube">
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</noindex>
+<script>
+jQuery(".text.section, .text-2.section, .text-3.section, .text-4.section, .title.section, .title2.section").each(function(key,item) {
+    if (item.innerHTML.indexOf("\u2028") > -1){
+        item.innerHTML = item.innerHTML.replace(/\u2028/g, ' ');
+    }
+});
+</script>
+<script>
+function isElementInViewport (el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+  );
+}
+function loadLazysrc(item){
+  var $item = jQuery(item);
+  if ($item.hasClass("lazy-bg")){
+    $item.removeClass("lazy-bg");
+  } else {
+    var src = $item.attr('data-lazysrc');
+    $item.attr('src',src);
+    $item.removeAttr('data-lazysrc');
+  }
+}
+
+//lazy load images above the fold
+jQuery('img[data-lazysrc],.lazy-bg').each(function(index,item){
+  if ( jQuery(item).is(":visible") && isElementInViewport(item) ){
+    loadLazysrc(item);
+  } else if (document.URL.indexOf("lazyLoadOff=true") > -1){
+    loadLazysrc(item);
+  }
+});
+
+//lazy load images below the fold. Keep function available for promo service or others that may need it.
+window.addEventListener('load', function(){
+  jQuery('img[data-lazysrc],.lazy-bg').each(function(index,item){
+    loadLazysrc(item);
+  });
+});
+</script>
+<script type="text/javascript" src="/etc/clientlibs/pluralsight/uber.min.073f871e2976e5efec4338925548df5c.js" defer></script>
+</div>
+</div>
+<div class="cookie_notification options" style="display:none;">
+<p class="cookie_notification--text">We use cookies to make interactions with our websites and services easy and meaningful. For more information about the cookies we use or to find out how you can disable cookies, <a href="/privacy" target="_blank">click here</a>.</p>
+<div class="cookie_notification--options">
+<a class="button button--secondary button--tiny cookie_notification--opt_in" href="#">Accept cookies and close this message</a>
+<a class="cookie_notification--opt_out" href="#">Disable cookies</a>
+</div>
+</div>
+<div class="cookie_notification opted_out" style="display:none;">
+<p class="cookie_notification--text">You have disabled non-critical cookies and are browsing in private mode. For the best possible experience on our website, please accept cookies. For additional details please read our <a href="/privacy" target="_blank">privacy policy</a>.</p>
+<a class="cookie_notification--opt_in text-only" href="#">Accept cookies and close this message</a>
+</div>
+<script data-cfasync="false">
+-1==document.cookie.indexOf("ps_optout")&&-1==document.URL.indexOf("noCookieBanner=true")?jQuery(".cookie_notification.options").slideDown():document.cookie.indexOf("ps_optout=1")>-1&&jQuery(".cookie_notification.opted_out").slideDown(),jQuery(".cookie_notification--opt_in").click(function(o){o.preventDefault();var t=new Date(Date.now()+31536e6);document.cookie="ps_optout=0; expires="+t.toUTCString()+"; path=/"+(document.URL.indexOf("pluralsight.com")>-1?"; domain=pluralsight.com":""),jQuery(".cookie_notification").slideUp()}),jQuery(".cookie_notification--opt_out").click(function(o){o.preventDefault();for(var t=document.cookie.split("; "),e=0;e<t.length;e++)for(var i=window.location.hostname.split(".");i.length>=0;){var n=t[e].split(";")[0].split("=")[0],c=n+"=; expires="+(new Date).toUTCString()+(i.length>0?"; domain="+i.join("."):"")+" ;path=",a=location.pathname.split("/");if(-1==n.indexOf("www-status"))for(document.cookie=c+"/";a.length>0;)document.cookie=c+a.join("/"),a.pop();if(0==i.length)break;i.shift()}var p=new Date(Date.now()+31536e6);document.cookie="ps_optout=1; expires="+p.toUTCString()+"; path=/"+(document.URL.indexOf("pluralsight.com")>-1?"; domain=pluralsight.com":""),window.location.reload()});
+</script>
+</body>
+</html>
+george@staembed01:~/Documents/New_Directory$ wget pluralsight.com 2> myerror.txt
+george@staembed01:~/Documents/New_Directory$ ls
+file1  file2  file3  file4  file6  index.html  index.html.1  myerror.txt  myfile  New_Dir
+george@staembed01:~/Documents/New_Directory$ cat myerror.txt 
+--2020-04-13 13:56:51--  http://pluralsight.com/
+Resolving pluralsight.com (pluralsight.com)... 35.165.141.199, 35.165.144.200, 54.148.56.39
+Connecting to pluralsight.com (pluralsight.com)|35.165.141.199|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.pluralsight.com:443/ [following]
+--2020-04-13 13:56:51--  https://www.pluralsight.com/
+Resolving www.pluralsight.com (www.pluralsight.com)... 104.19.162.127, 104.19.161.127, 2606:4700::6813:a17f, ...
+Connecting to www.pluralsight.com (www.pluralsight.com)|104.19.162.127|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html.1’
+
+     0K .......... .......... .......... .......... .......... 11,5M
+    50K .......... .......... .......... .......... .......... 8,97M
+   100K ......                                                  136M=0,01s
+
+2020-04-13 13:56:52 (10,7 MB/s) - ‘index.html.1’ saved [108905]
+
+george@staembed01:~/Documents/New_Directory$ 
