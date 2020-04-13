@@ -1,0 +1,28 @@
+george@staembed01:~$ sudo apt-get update
+[sudo] password for george: 
+Hit:1 http://archive.canonical.com/ubuntu bionic InRelease
+Hit:2 http://ro.archive.ubuntu.com/ubuntu bionic InRelease                     
+Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease              
+Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease                        
+Hit:5 http://ro.archive.ubuntu.com/ubuntu bionic-updates InRelease             
+Hit:6 http://ro.archive.ubuntu.com/ubuntu bionic-backports InRelease           
+Ign:7 http://dl.google.com/linux/chrome/deb stable InRelease                   
+Hit:8 http://dl.google.com/linux/chrome/deb stable Release
+Reading package lists... Done
+george@staembed01:~$ sudo apt-get install info
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+info is already the newest version (6.5.0.dfsg.1-2).
+info set to manually installed.
+The following packages were automatically installed and are no longer required:
+  ebtables liblxc-common liblxc1 libuv1 linux-headers-5.3.0-42
+  linux-headers-5.3.0-42-generic linux-image-5.3.0-42-generic
+  linux-modules-5.3.0-42-generic linux-modules-extra-5.3.0-42-generic lxcfs
+  lxd-client uidmap xdelta3
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+george@staembed01:~$ info
+george@staembed01:~$ info
+george@staembed01:~$ type wget
+wget is /usr/bin/wget
